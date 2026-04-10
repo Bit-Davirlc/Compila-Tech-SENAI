@@ -1,82 +1,990 @@
 [
   {
-    "id": 1,
-    "nome": "Fundamentos de Redes de Computadores",
-    "area": "Redes",
-    "descricao": "Conceitos essenciais de redes: topologias, protocolos TCP/IP, endereçamento e cabeamento estruturado.",
-    "cargaHoraria": "40h",
-    "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/fundamentos-de-redes-de-computadores/",
-    "destaque": true
-  },
-  {
-    "id": 2,
-    "nome": "Introdução à Segurança da Informação",
-    "area": "Segurança",
-    "descricao": "Princípios de segurança digital, tipos de ameaças, boas práticas e fundamentos de criptografia.",
-    "cargaHoraria": "20h",
-    "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/seguranca-da-informacao/",
-    "destaque": false
-  },
-  {
-    "id": 3,
-    "nome": "Fundamentos de Cloud Computing",
-    "area": "Cloud",
-    "descricao": "Introdução à computação em nuvem: modelos IaaS, PaaS e SaaS, principais provedores e casos de uso.",
-    "cargaHoraria": "30h",
-    "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/cloud-computing/",
-    "destaque": true
-  },
-  {
-    "id": 4,
-    "nome": "Lógica de Programação",
+    "id": 110384,
+    "nome": "Administração de Sistemas ServiceNow - CSA",
     "area": "Programação",
-    "descricao": "Base do raciocínio computacional: algoritmos, fluxogramas, estruturas de decisão e repetição.",
-    "cargaHoraria": "40h",
+    "descricao": "O curso de aperfeiçoamento profissional Administração de Sistemas ServiceNow - CSA tem por objetivo o desenvolvimento das competências relativas à utilização e aplicação dos serviços fundamentais da plataforma ServiceNow. Ao final do curso, o aluno estará preparado para pleitear a certificação Certified System Administrator - CSA.",
+    "cargaHoraria": "32 horas",
     "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/logica-de-programacao/",
-    "destaque": false
+    "link": "https://www.sp.senai.br/curso/administracao-de-sistemas-servicenow-csa/110384",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA",
+      "Certificação"
+    ]
   },
   {
-    "id": 5,
-    "nome": "Introdução ao Linux",
-    "area": "Redes",
-    "descricao": "Sistema operacional Linux para iniciantes: comandos essenciais, gerenciamento de arquivos e usuários.",
-    "cargaHoraria": "20h",
-    "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/linux/",
-    "destaque": false
-  },
-  {
-    "id": 6,
-    "nome": "Desenvolvimento Web com HTML e CSS",
+    "id": 102681,
+    "nome": "Banco de Dados para Data Science",
     "area": "Programação",
-    "descricao": "Criação de páginas web modernas com HTML5 semântico e CSS3 responsivo.",
-    "cargaHoraria": "40h",
-    "status": "Encerrado",
-    "link": "https://www.sp.senai.br/curso/html-css/",
-    "destaque": false
-  },
-  {
-    "id": 7,
-    "nome": "Ethical Hacking — Fundamentos",
-    "area": "Segurança",
-    "descricao": "Introdução ao hacking ético: metodologias de pentest, ferramentas e responsabilidade legal.",
-    "cargaHoraria": "30h",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Banco de Dados para Data Science tem por objetivo o desenvolvimento de competências relativas à análise, planejamento, criação e manipulação de bancos de dados relacionais por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "40 horas",
     "status": "Disponível",
-    "link": "https://www.sp.senai.br/curso/ethical-hacking/",
-    "destaque": true
+    "link": "https://www.sp.senai.br/curso/banco-de-dados-para-data-science/102681",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA",
+      "Banco de Dados"
+    ]
   },
   {
-    "id": 8,
-    "nome": "AWS Cloud Practitioner Essentials",
+    "id": 92800,
+    "nome": "CCNA V7: SWITCHING, ROUTING AND WIRELESS ESSENTIALS",
+    "area": "Segurança",
+    "descricao": "O Curso CCNA V7: SWITCHING, ROUTING AND WIRELESS ESSENTIALS, tem por objetivo desenvolver competências profissionais referentes a configuração e solução de problemas nos dispositivos de camada 2 e 3 (switch e roteador), identificando e mitigando ameaças de segurança de LAN, além de configuração e proteção de uma WLAN básica, tendo em vista a segurança e redundância dos equipamentos em redes de pequeno e médio porte.",
+    "cargaHoraria": "72 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ccna-v7-switching-routing-and-wireless-essentials/92800",
+    "destaque": false,
+    "areas": [
+      "Redes"
+    ]
+  },
+  {
+    "id": 101888,
+    "nome": "Cibersegurança em Servidores Windows",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Cibersegurança em Servidores Windows tem por objetivo o desenvolvimento de competências relativas à aplicação de procedimentos e configurações que visam o aumento da resiliência cibernética em servidores Windows.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ciberseguranca-em-servidores-windows/101888",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "IA",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "id": 103589,
+    "nome": "Cybersecurity Essentials",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional Cybersecurity Essentials tem por objetivo o desenvolvimento de competências relativas a implementação de tecnologias de defesa, identificando ameaças e analisando dados e alertas de segurança de acordo com procedimentos e boas práticas da área de cibersegurança.\nEste curso proporciona condições para que o aluno obtenha a certificação Cisco Certified Support Technician (CCST) Cybersecurity e para ingressar na área de cibersegurança.",
+    "cargaHoraria": "70 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/cybersecurity-essentials/103589",
+    "destaque": true,
+    "areas": [
+      "Segurança"
+    ]
+  },
+  {
+    "id": 105866,
+    "nome": "Análise de Dados em Nuvem - Google Cloud Data Analytics Certificate",
     "area": "Cloud",
-    "descricao": "Preparação para a certificação AWS Cloud Practitioner: serviços core, segurança e arquitetura na nuvem.",
-    "cargaHoraria": "60h",
-    "status": "Encerrado",
-    "link": "https://www.sp.senai.br/curso/aws/",
-    "destaque": false
+    "descricao": "O curso de Análise de Dados em Nuvem ? Google Cloud Data Analytics Certificate tem por objetivo desenvolver capacidades de coleta, transformação e análise de dados brutos, gerando de insigths para tomada de decisão, seguindo as melhores práticas de análise de dados e os procedimentos e normas técnicas de qualidade. Este curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/analise-de-dados-em-nuvem-google-cloud-data-analytics-certificate/105866",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Dados",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 92801,
+    "nome": "CCNA V7: ENTERPRISE NETWORKING, SECURITY AND AUTOMATION",
+    "area": "Segurança",
+    "descricao": "O Curso CCNA V7: ENTERPRISE NETWORKING, SECURITY AND AUTOMATION, tem por objetivo desenvolver competências profissionais referentes a configuração e solução de problemas de redes corporativas, protegendo contra ameaças de segurança cibernética, identificando as ferramentas de gerenciamento de rede e os principais conceitos de rede definida por software, incluindo arquiteturas baseadas em controlador e como as APIs (Application Programming Interface) permitem a automação de rede.",
+    "cargaHoraria": "72 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ccna-v7-enterprise-networking-security-and-automation/92801",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Redes",
+      "IA"
+    ]
+  },
+  {
+    "id": 103396,
+    "nome": "Cibersegurança com Soluções Fortinet",
+    "area": "Cloud",
+    "descricao": "O curso de Cibersegurança com Soluções Fortinet tem por objetivo desenvolver capacidades para gerenciar sistemas de cibersegurança, configurando soluções Fortinet, implementando tecnologias de segurança e identificando ameaças em ambientes de rede local e em nuvem, seguindo as melhores práticas de cibersegurança e os procedimentos e normas técnicas de qualidade. Este curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Fortinet.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ciberseguranca-com-solucoes-fortinet/103396",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "Redes",
+      "Dados",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 111634,
+    "nome": "Criação de Agentes de IA com o Microsoft AI Foundry",
+    "area": "Cloud",
+    "descricao": "O curso Criação de Agents de IA com o AI Foundry tem por objetivo capacitar o aluno a projetar, desenvolver, avaliar e implantar agentes de IA prontos para produção utilizando a plataforma Microsoft Foundry (Azure AI Foundry), aplicando engenharia de prompts, gerenciamento de conversas, integração de serviços de IA (Linguagem, Busca, Visão e Fala), testes e estratégias de implantação, além de princípios de ética, segurança e IA responsável. Ao final, o aluno será capaz de entregar um agente funcional, documentado e publicado em um repositório como evidência de portfólio",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/criacao-de-agentes-de-ia-com-o-microsoft-ai-foundry/111634",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "IA"
+    ]
+  },
+  {
+    "id": 105147,
+    "nome": "Dashboards com Google Looker Studio",
+    "area": "Cloud",
+    "descricao": "O curso de Dashboards com Google Looker Studio tem por objetivo desenvolver capacidades para transformar dados brutos em insights, conectando e modelando dados de diversas fontes, construindo dashboards interativos e visualmente impactantes, utilizando uma variedade de gráficos e elementos visuais, além de aplicar segmentação de dados, filtros personalizados e cálculos, comunicando insights de forma clara e eficaz, criando narrativas visuais convincentes e automatizando a entrega de relatórios. Este curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
+    "cargaHoraria": "32 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/dashboards-com-google-looker-studio/105147",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Dados",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 102719,
+    "nome": "Desenvolvedor Back-end",
+    "area": "Programação",
+    "descricao": "O curso de Qualificação Profissional de Desenvolvedor Back-End tem por objetivo o desenvolvimento de competências relativas a projetar, desenvolver e manter sistemas e aplicativos na parte do servidor e seguindo boas práticas, procedimento e normas.",
+    "cargaHoraria": "160 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvedor-back-end/102719",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "id": 102669,
+    "nome": "Desenvolvimento de API REST com Spring Boot",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Desenvolvimento de API REST com Spring Boot tem por objetivo o desenvolvimento de competências relativas ao desenvolvimento back-end por meio da linguagem de programação Java e do framework Spring Boot.",
+    "cargaHoraria": "120 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-de-api-rest-com-spring-boot/102669",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 102698,
+    "nome": "Desenvolvimento de Jogos em Unity",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Desenvolvimento de jogos em Unity, tem por objetivo o desenvolvimento de competências relativas à produção de jogos 2D e 3D como o Engine Unity e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-de-jogos-em-unity/102698",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102674,
+    "nome": "Desenvolvimento em JavaScript",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Desenvolvimento em Javascript tem por objetivo o desenvolvimento de competências relativas à que permitem programar em JavaScript com visão no lado do cliente, bem como criar páginas web interativas, animações, jogos e aplicativos da web.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-em-javascript/102674",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 102672,
+    "nome": "Design UX e UI",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Design UX e UI tem por objetivo o desenvolvimento de competências relativas a criar produtos digitais que sejam agradáveis, intuitivos e fáceis de usar.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/design-ux-e-ui/102672",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102718,
+    "nome": "Desenvolvedor Front-end",
+    "area": "Segurança",
+    "descricao": "O curso de Qualificação Profissional de Desenvolvedor Front-End tem por objetivo o desenvolvimento de competências que possibilitem ao concluinte programar sistemas utilizando as principais tecnologias do front-end, disponibilizando visualmente ao usuário uma forma amigável de acesso ao sistema, utilizando tecnologias como HTML, CSS e JavaScript e considerando as normas, padrões e requisitos técnicos, de qualidade, saúde e segurança e de sustentabilidade.",
+    "cargaHoraria": "160 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvedor-front-end/102718",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 111550,
+    "nome": "Desenvolvimento de Aplicações com IA Generativa utilizando Google Antigravity",
+    "area": "Programação",
+    "descricao": "O curso Desenvolvimento de Aplicações com IA Generativa utilizando Antigravity tem como objetivo desenvolver competências relativas a projeto, desenvolvimento e validação de protótipos de aplicações, por meio de modelos de Inteligência Artificial Generativa pré-treinados, com uso da ferramenta Antigravity.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-de-aplicacoes-com-ia-generativa-utilizando-google-antigravity/111550",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 107913,
+    "nome": "Desenvolvimento de soluções em inteligência artificial - Microsoft AI-102",
+    "area": "Cloud",
+    "descricao": "O curso de Desenvolvimento de soluções em inteligência artificial - Microsoft AI-102, tem como objetivo capacitar os alunos para projetar, implementar e gerenciar soluções de Inteligência Artificial (IA) robustas e escaláveis utilizando os serviços do Microsoft Azure, preparando-os para a certificação AI-102.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-de-solucoes-em-inteligencia-artificial-microsoft-ai-102/107913",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 102965,
+    "nome": "Design de Jogos Digitais",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Design de Jogos Digitais tem por objetivo o desenvolvimento das competências que permitem descrever todos os aspectos do jogo, desde a mecânica, sistemas, narrativa, som e elementos visuais, por meio do Game Design Document (GDD), seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/design-de-jogos-digitais/102965",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 100643,
+    "nome": "E-commerce - Construção e Operacionalização",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de E-commerce: Construção e Operacionalização têm por objetivo o desenvolvimento de competências relativas à hospedagem, operação, configuração, personalização e instalação de módulos em plataformas específicas, para a construção e operacionalização de e-commerce, seguindo padrões de design e procedimentos técnicos.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/e-commerce-construcao-e-operacionalizacao/100643",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 93720,
+    "nome": "Excel Básico",
+    "area": "Dados",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Excel Básico tem por objetivo desenvolver competências relativas a elaboração e formatação de planilhas utilizando fórmulas e funções matemáticas, estatísticas, de data e hora, lógicas, de pesquisa, como: SOMA, MÉDIA, SOMASE, CONT.SE, MÉDIASE, SE, PROCV, entre outras, criando gráficos e mini gráficos, tendo em vista a produtividade e a solução de problemas em diferentes áreas de atuação.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/excel-basico/93720",
+    "destaque": false,
+    "areas": [
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 104403,
+    "nome": "Fundamentos de Inteligência Artificial Generativa - Google Cloud",
+    "area": "Cloud",
+    "descricao": "O curso de Fundamentos de Inteligência Artificial Generativa - Google Cloud tem por objetivo desenvolver competências para utilização de modelos de inteligência artificial (IA) generativa de forma responsável e ética, diferenciando modelos de machine learning e modelos de linguagem grande (LLMs), utilizando prompts e parâmetros para orientar os resultados, baseando-se nos princípios de IA responsável.\r\nO curso promove atividades hands-on e demonstrações onde os participantes irão se familiarizar com as diversas ferramentas e tecnologias de IA generativa da plataforma Google Cloud, proporcionando condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/fundamentos-de-inteligencia-artificial-generativa-google-cloud/104403",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 102159,
+    "nome": "Fundamentos do Python 1",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Fundamentos do Python 1 tem por objetivo o desenvolvimento de competências relativas à programação utilizando linguagem Python, bem como preparar o profissional para obter as certificações PCEP ? Certified Entry-Level Python Programmer (Exame PCEP-30-0x), seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "30 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/fundamentos-do-python-1/102159",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 97709,
+    "nome": "Implantação de Serviços de Inteligência Artificial em Nuvem - Microsoft AI-900",
+    "area": "Cloud",
+    "descricao": "O curso de Implantação de Serviços de Inteligência Artificial em Nuvem - Microsoft AI900 tem por objetivo preparar o estudante para possíveis certificações da Microsoft AI-900, desenvolvendo capacidades que possibilitem ao concluinte implementar serviços cognitivos de inteligência artificial, utilizando as principais tecnologias da área disponíveis nos serviços de nuvem.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-inteligencia-artificial-em-nuvem-microsoft-ai-900/97709",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 97726,
+    "nome": "Implantação de Serviços em Nuvem - AWS Cloud Practitioner Foundational",
+    "area": "Cloud",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Implantação de Serviços em Nuvem - AWS Cloud Practitioner Foundational tem por objetivo o desenvolvimento de competências relativas à implantação e gerenciamento de serviços em nuvem, por meio dos conteúdos formativos da AWS Foundation, possibilitando que o profissional pleiteie a certificação AWS Cloud Practitioner Foundational.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-em-nuvem-aws-cloud-practitioner-foundational/97726",
+    "destaque": true,
+    "areas": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": 102978,
+    "nome": "Fundamentos de Ciência de Dados - Google Cloud",
+    "area": "Cloud",
+    "descricao": "O curso Fundamentos de Ciência de Dados - Google Cloud tem por objetivo desenvolver capacidades que possibilitem ao concluinte o implemento de serviços de ciência de dados em nuvem, utilizando métodos, processos, algoritmos e sistemas na extração de conhecimento e insights a partir de dados públicos e privados.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/fundamentos-de-ciencia-de-dados-google-cloud/102978",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Dados"
+    ]
+  },
+  {
+    "id": 99115,
+    "nome": "Fundamentos de Segurança em Nuvem - Microsoft - SC-900",
+    "area": "Cloud",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Fundamentos de Segurança em Nuvem - Microsoft - SC-900 tem por objetivo o desenvolvimento de competências relativas aos fundamentos de SCI (Segurança, Conformidade e Identidade) em serviços Microsoft relacionados e baseados em nuvem, por meio dos conteúdos formativos da Microsoft, possibilitando que o profissional pleiteie a certificação Microsoft - SC-900.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/fundamentos-de-seguranca-em-nuvem-microsoft-sc-900/99115",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "Programação",
+      "Dados",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 97835,
+    "nome": "Implantação de Serviços de Inteligência Artificial em Nuvem - Google Cloud AI Foundations",
+    "area": "Cloud",
+    "descricao": "O curso de Implantação de Serviços de Inteligência Artificial em Nuvem - Google Cloud AI Foundations tem por objetivo preparar o estudante para possíveis selos de certificação do Google, desenvolvendo capacidades que possibilitem ao concluinte implementar serviços cognitivos de inteligência artificial, utilizando as principais tecnologias da área disponíveis nos serviços de nuvem.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-inteligencia-artificial-em-nuvem-google-cloud-ai-foundations/97835",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "IA"
+    ]
+  },
+  {
+    "id": 104404,
+    "nome": "Implantação de Serviços de Inteligência Artificial Generativa em Nuvem - Google Cloud",
+    "area": "Cloud",
+    "descricao": "O curso de Implantação de Serviços de Inteligência Artificial Generativa em Nuvem - Google Cloud tem por objetivo desenvolver e implantar soluções de Inteligência Artificial (IA) generativa usando o modelo fundacional Gemini, de acordo com boas práticas de IA responsável e utilizando produtos Google Cloud. Este curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-inteligencia-artificial-generativa-em-nuvem-google-cloud/104404",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 97815,
+    "nome": "Implantação de Serviços em Nuvem - Google Cloud Foundations",
+    "area": "Cloud",
+    "descricao": "O curso de Implantação de Serviços em Nuvem - Google Cloud Foundations tem por objetivo preparar o estudante para certificações Cloud Digital Leader, permitindo articular os recursos dos principais produtos e serviços do Google Cloud, desenvolvendo capacidades que possibilitem ao concluinte implementar serviços de armazenamento e análise de dados, utilizando as principais tecnologias da área disponíveis nos serviços de nuvem.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-em-nuvem-google-cloud-foundations/97815",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 98743,
+    "nome": "Implantação de Serviços em Nuvem - Microsoft AZ-900",
+    "area": "Cloud",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Implantação de Serviços em Nuvem - Microsoft  AZ-900 tem por objetivo o desenvolvimento de competências relativas à implantação e gerenciamento de serviços em nuvem, por meio dos conteúdos formativos da Microsoft, possibilitando que o profissional pleiteie a certificação Microsoft - AZ-900.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-em-nuvem-microsoft-az-900/98743",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Programação",
+      "Dados",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 101299,
+    "nome": "Inteligências Artificiais Generativas Aplicada a Programação - ChatGPT",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Inteligências artificiais generativas aplicada a programação - ChatGPT tem por objetivo a implementação de soluções de desenvolvimento por meio de inteligência artificial generativa, identificando e corrigindo erros comuns em scripts, reescrevendo códigos com intuito de melhorar a compreensão de sua escrita e desempenho geral de aplicação, aprimorando o aprendizado de novas tecnologias, como linguagens de programação, bibliotecas, frameworks e documentações no geral. Além disso, o profissional pode aplicar o treinamento personalizado do ChatGPT por meio da API da OpenAI com intuito de criar e disponibilizar um chatbot de prompt de texto para diversas necessidades de mercado.",
+    "cargaHoraria": "48 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/inteligencias-artificiais-generativas-aplicada-a-programacao-chatgpt/101299",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 105414,
+    "nome": "Marketing Digital com Inteligência Artificial",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional Marketing Digital com Inteligência Artificial tem por objetivo o desenvolvimento de competências relativas à aplicação de tecnologias de inteligência artificial em estratégias de marketing digital, aprimorando a eficácia das campanhas, otimizando processos, e personalizando a experiência do cliente.",
+    "cargaHoraria": "30 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/marketing-digital-com-inteligencia-artificial/105414",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102982,
+    "nome": "Microsoft Power Platform Fundamentals - PL-900",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Fundamentos Power Platform - Microsoft  PL-900 tem por objetivo o desenvolvimento de competências relativas à utilização e aplicação dos serviços: Power BI, Power Automate, Power Apps e Power Virtual Agents, por meio dos conteúdos formativos da Microsoft, possibilitando que o profissional pleiteie a certificação Microsoft - PL-900.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/microsoft-power-platform-fundamentals-pl-900/102982",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 94109,
+    "nome": "Pacote Office",
+    "area": "IA",
+    "descricao": "O curso de aperfeiçoamento profissional Pacote Office tem por objetivo desenvolver competências relacionadas ao uso do Word, do PowerPoint e do Excel Básico.",
+    "cargaHoraria": "96 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/pacote-office/94109",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 102660,
+    "nome": "Implementação em Big Data",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Programação para inteligência artificial generativa tem por objetivo implementar soluções de software através de inteligência artificial generativa, identificando e corrigindo erros comuns em aplicações, reescrevendo códigos com intuito de melhorar a compreensão de sua escrita e desempenho geral de aplicação, aprimorando o aprendizado de novas tecnologias.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implementacao-em-big-data/102660",
+    "destaque": false,
+    "areas": [
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 102678,
+    "nome": "Interfaces Web com Bootstrap",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional Interfaces Web com Bootstrap tem por objetivo o desenvolvimento de competências relativas ao desenvolvimento de interfaces web por meio do framework Bootstrap, seguindo as boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/interfaces-web-com-bootstrap/102678",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102590,
+    "nome": "Microsoft Power BI",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Microsoft Power BI tem por objetivo o desenvolvimento de competências relacionadas desenvolver soluções por meio da plataforma de business intelligence (BI), utilizado para transformar dados brutos em informações úteis, insights de negócios e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "32 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/microsoft-power-bi/102590",
+    "destaque": false,
+    "areas": [
+      "Dados"
+    ]
+  },
+  {
+    "id": 94243,
+    "nome": "Operador de Microcomputador",
+    "area": "IA",
+    "descricao": "O Curso de Qualificação Profissional Operador de Microcomputador tem por objetivo desenvolver competências relacionadas a instalação e configuração de aplicativos, detecção de falhas de hardware e do sistema operacional, assegurando o funcionamento do sistema. Utiliza os principais recursos do Word, do Excel, do PowerPoint e de navegação na internet.",
+    "cargaHoraria": "160 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/operador-de-microcomputador/94243",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 102619,
+    "nome": "PROGRAMAÇÃO EM C#",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em C# tem por objetivo capacitar profissionais para desenvolver aplicações em linguagem C#, por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-c/102619",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102800,
+    "nome": "Programação em C++",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em C++ tem por objetivo capacitar profissionais para desenvolver aplicações em linguagem C++, por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-c/102800",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102657,
+    "nome": "Programação em Python",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em Python tem por objetivo capacitar profissionais para desenvolver aplicações em linguagem Python, por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-python/102657",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102659,
+    "nome": "Programação em Python para Data Science",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em Python para Data Science tem por objetivo o desenvolvimento de competências relativas a programação utilizando codificações na linguagem Python, com vistas a coleta, limpeza, organização e transformação de dados e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-python-para-data-science/102659",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "Dados"
+    ]
+  },
+  {
+    "id": 98923,
+    "nome": "Programação Oracle - Java Foundations",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Programação Oracle - Java Foundations tem por objetivo o desenvolvimento de competências relativas à programação de software utilizando a linguagem Java, por meio dos conteúdos formativos da Oracle Academy, possibilitando que o profissional pleiteie a certificação Oracle ? Java Foundations.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-oracle-java-foundations/98923",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 102724,
+    "nome": "Programação Oracle - Java Programming",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Programação Oracle - Java Programming tem por objetivo o desenvolvimento de competências relativas à programação de software utilizando a linguagem Java, por meio dos conteúdos formativos da Oracle Academy, possibilitando que o profissional pleiteie a certificação Oracle ? Java Programming.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-oracle-java-programming/102724",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 102695,
+    "nome": "Programação em Inteligência Artificial Generativa",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Programação para inteligência artificial generativa tem por objetivo implementar soluções de software através de inteligência artificial generativa, identificando e corrigindo erros comuns em aplicações, reescrevendo códigos com intuito de melhorar a compreensão de sua escrita e desempenho geral de aplicação, aprimorando o aprendizado de novas tecnologias.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-inteligencia-artificial-generativa/102695",
+    "destaque": false,
+    "areas": [
+      "IA"
+    ]
+  },
+  {
+    "id": 101893,
+    "nome": "Programação em Python para Cibersegurança",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Programação em Python para Cibersegurança tem por objetivo o desenvolvimento de competências relativas à utilização da linguagem de programação Python para criação de scripts que otimizem tarefas de reconhecimento e análise de vulnerabilidades.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-python-para-ciberseguranca/101893",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação"
+    ]
+  },
+  {
+    "id": 54589,
+    "nome": "PROGRAMAÇÃO JAVA",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação Java tem por objetivo o desenvolvimento de competências relativas à utilização da tecnologia Java como linguagem de programação e acesso a banco de dados relacionais, fornecendo conhecimentos para a elaboração e desenvolvimento de aplicações do desktop, apresentando os aspectos fundamentais para a criação da interface do usuário, a comunicação remota entre computadores por intermédio de aplicações cliente-servidor e acesso à banco de dados.",
+    "cargaHoraria": "120 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-java/54589",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 98922,
+    "nome": "Programação Oracle - Java Fundamentals",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Programação Oracle - Java Fundamentals tem por objetivo o desenvolvimento de competências relativas à programação de software para iniciantes utilizando lógica e programação em blocos com linguagem Java, por meio dos conteúdos formativos da Oracle Academy, possibilitando que o profissional pleiteie a certificação Oracle ? Java Fundamentals",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-oracle-java-fundamentals/98922",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 102339,
+    "nome": "Redes de computadores - Implantação de redes locais",
+    "area": "Segurança",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Redes de Computadores - Implantação de Redes Locais tem por objetivo o desenvolvimento de competências relativas à identificação de redes, pela sua abrangência, topologia e arquitetura, realizando a montagem  da infraestrutura física da rede por meio do uso de ferramentas e dispositivos específicos e configurando serviços e protocolos visando a comunicação e conectividade entre os ativos de rede, de acordo com normas técnicas, ambientais, de qualidade e de segurança e saúde no trabalho.",
+    "cargaHoraria": "48 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/redes-de-computadores-implantacao-de-redes-locais/102339",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Redes",
+      "Programação",
+      "Dados",
+      "IA",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "id": 102625,
+    "nome": "Soluções Integradas com IoT",
+    "area": "Programação",
+    "descricao": "O Curso de Aperfeiçoamento Profissional de Soluções integradas com IoT tem por objetivo o desenvolvimento de competências relativas à implementação de soluções com tecnologias de IoT para a integração de sistemas, por meio de sensores, atuadores e aplicações de interfaces gráficas, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/solucoes-integradas-com-iot/102625",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 101891,
+    "nome": "Análise Forense Computacional",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Análise Forense Computacional tem por objetivo o desenvolvimento de competências relativas à coleta, análise e tratamento de evidências, reconstrução da linha do tempo de incidentes computacionais e elaboração de documentação.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/analise-forense-computacional/101891",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102693,
+    "nome": "CiberSecurity em Data Science",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de CyberSecurity em Data Science tem por objetivo o desenvolvimento de competências relativas ao desenvolvimento de competências relativas a principais definições de segurança cibernética, como ameaças, riscos, estratégias de segurança e leis e regulamentos.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/cibersecurity-em-data-science/102693",
+    "destaque": true,
+    "areas": [
+      "Segurança"
+    ]
+  },
+  {
+    "id": 102662,
+    "nome": "Desenho 2D de personagens para jogos digitais",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Desenho 2D de Personagens para Jogos Digitais tem por objetivo o desenvolvimento de competências relativas à criação manual de personagens e posterior digitalização para utilização em jogos digitais. O curso será desenvolvido por meio de técnicas e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/desenho-2d-de-personagens-para-jogos-digitais/102662",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 104381,
+    "nome": "Implantação de Serviços de Cibersegurança em Nuvem - Google Cloud Cybersecurity Certificate",
+    "area": "Cloud",
+    "descricao": "O curso de Aperfeiçoamento Profissional Implantação de Serviços de Cibersegurança em Nuvem ? Google Cloud Cybersecurity Certificate tem por objetivo o desenvolvimento de competências relativas a solução de problemas de cibersegurança, analisando riscos, vulnerabilidades e configurações, identificando ameaças e analisando registros de acordo com procedimentos e boas práticas da área de cibersegurança.\nEste curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-ciberseguranca-em-nuvem-google-cloud-cybersecurity-certificate/104381",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "Certificação"
+    ]
+  },
+  {
+    "id": 98145,
+    "nome": "Web designer - Front-End",
+    "area": "Programação",
+    "descricao": "O curso de Qualificação Profissional de Web designer - Front-End tem por objetivo o desenvolvimento de competências relativas à elaboração de páginas para Web, utilizando recursos como linguagens: HTML, CSS, JavaScript bem como ferramentas para confecção de interfaces gráficas para sites personalizados",
+    "cargaHoraria": "180 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/web-designer-front-end/98145",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
+  },
+  {
+    "id": 92799,
+    "nome": "CCNA V7: INTRODUCTION TO NETWORKS",
+    "area": "Redes",
+    "descricao": "O Curso de Aperfeiçoamento CCNA V7: INTRODUCTION TO NETWORKS tem por objetivo desenvolver competências profissionais referentes ao   planejamento, configuração e implementação de redes locais (LAN) de pequeno porte, parametrizando roteadores e switches, bem como endereçamento IP.",
+    "cargaHoraria": "72 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ccna-v7-introduction-to-networks/92799",
+    "destaque": false,
+    "areas": [
+      "Redes",
+      "IA"
+    ]
+  },
+  {
+    "id": 101886,
+    "nome": "Cibersegurança em Servidores Linux",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Cibersegurança em Servidores Linux tem por objetivo o desenvolvimento de competências relativas à aplicação de procedimentos e configurações de segurança visando o aumento da resiliência cibernética em servidores Linux.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ciberseguranca-em-servidores-linux/101886",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "IA",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "id": 102671,
+    "nome": "Designer de Interface Web",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Designer de Interface WEB tem por objetivo o desenvolvimento de competências relativas à desenvolver interfaces web que sejam agradáveis, intuitivas e fáceis de usar, bem como, usar ferramentas e softwares de design para criar essas interfaces.",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/designer-de-interface-web/102671",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 97293,
+    "nome": "Implantação e Análise de Dados em Nuvem - Microsoft DP-900",
+    "area": "Cloud",
+    "descricao": "O curso de Implantação e Análise de Dados em Nuvem tem por objetivo preparar o estudante para certificações como a Microsoft DP-900, desenvolvendo capacidades que possibilitem ao concluinte implementar serviços de armazenamento e análise de dados, utilizando as principais tecnologias da área disponíveis nos serviços de nuvem.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/implantacao-e-analise-de-dados-em-nuvem-microsoft-dp-900/97293",
+    "destaque": true,
+    "areas": [
+      "Cloud",
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 101897,
+    "nome": "Mecanismos de Defesa - Firewall",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Mecanismos de Defesa - Firewall tem por objetivo o desenvolvimento de competências relativas à implementação de ferramentas e recursos de Firewall lógico e UTM - Unified Threat Management visando o aumento da resiliência cibernética da rede.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/mecanismos-de-defesa-firewall/101897",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Redes",
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 101892,
+    "nome": "Mecanismos de Defesa - IDS e IPS",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Mecanismos de Defesa - IDS e IPS tem por objetivo o desenvolvimento de competências relativas à implementação de ferramentas de IDS e IPS com o intuito de aumentar a resiliência cibernética em estruturas tecnológicas.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/mecanismos-de-defesa-ids-e-ips/101892",
+    "destaque": true,
+    "areas": [
+      "Segurança"
+    ]
+  },
+  {
+    "id": 102692,
+    "nome": "Modelagem em Data Warehouse",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Modelagem em Data Warehouse tem por objetivo o desenvolvimento de competências necessárias para projetar e implementar Data Warehouse eficientes e escaláveis para apoiar o armazenamento e análise de dados de negócios e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/modelagem-em-data-warehouse/102692",
+    "destaque": false,
+    "areas": [
+      "Dados"
+    ]
+  },
+  {
+    "id": 102670,
+    "nome": "Programação em Python com Framework",
+    "area": "Segurança",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em Python com framework tem por objetivo capacitar profissionais para desenvolver aplicações baseados em Python usando uma abordagem orientada a objetos com framework, seguindo boas práticas, procedimentos, normas técnicas de qualidade e segurança.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-python-com-framework/102670",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 101901,
+    "nome": "SOC - Centro de Operações de Segurança",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de SOC ? Centro de Operações de Segurança tem por objetivo o desenvolvimento de competências relativas à análise e respostas a incidentes de segurança, atuando em Centros de Operações de Segurança (SOC), visando a proteção contínua dos ativos e dados de uma organização.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/soc-centro-de-operacoes-de-seguranca/101901",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 101884,
+    "nome": "Mecanismos de Defesa - Gerenciamento com SIEM",
+    "area": "Segurança",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Mecanismos de Defesa - Gerenciamento com SIEM tem por objetivo o desenvolvimento de competências relativas à implementação da ferramenta de SIEM - Security Information Event Management para gerenciamento de alertas e relatórios, visando o monitoramento de ameaças.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/mecanismos-de-defesa-gerenciamento-com-siem/101884",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "IA"
+    ]
+  },
+  {
+    "id": 102701,
+    "nome": "Modelagem 3D para Jogos com Maya",
+    "area": "Programação",
+    "descricao": "O curso de Aperfeiçoamento Profissional de Modelagem 3D para jogos com Maya, tem por objetivo o desenvolvimento de competências relativas à produção de modelos 3D de personagens, ambientes e objetos para jogo e a exportação de conteúdo para game engine, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/modelagem-3d-para-jogos-com-maya/102701",
+    "destaque": false,
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA"
+    ]
+  },
+  {
+    "id": 102664,
+    "nome": "Programação de banco de dados",
+    "area": "Segurança",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação de Banco de Dados tem por objetivo o desenvolvimento de competências relativas à análise, planejamento, criação e manutenção de bancos de dados relacionais e à implantação de técnicas de segurança e administração de sistemas gerenciadores de bancos de dados relacionais (SGBDR), por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "120 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-de-banco-de-dados/102664",
+    "destaque": true,
+    "areas": [
+      "Segurança",
+      "Programação",
+      "Dados",
+      "IA",
+      "Banco de Dados"
+    ]
+  },
+  {
+    "id": 88657,
+    "nome": "Programação em Python no Raspberry",
+    "area": "Segurança",
+    "descricao": "O Curso de Aperfeiçoamento Profissional Programação em Python no Raspberry tem por objetivo o desenvolvimento de raciocínio lógico, para a estruturação de programas utilizando a linguagem Python, seguindo procedimentos e normas técnicas de qualidade, meio ambiente, saúde e segurança no trabalho.",
+    "cargaHoraria": "48 horas",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/programacao-em-python-no-raspberry/88657",
+    "destaque": false,
+    "areas": [
+      "Programação"
+    ]
   }
 ]

@@ -15,7 +15,6 @@
    Cada função faz UMA coisa. Isso facilita manutenção e evolução.
    ============================================================ */
 
-
 /* ----------------------------------------------------------
    1. ESTADO DA APLICAÇÃO
 
@@ -24,11 +23,10 @@
    É o princípio básico por trás de frameworks como React/Vue.
    ---------------------------------------------------------- */
 const estado = {
-  cursos: [],          // Lista completa de cursos (carregada do JSON)
-  filtroArea: 'Todos', // Área selecionada no filtro
-  termoBusca: '',      // Texto digitado no campo de busca
+  cursos: [], // Lista completa de cursos (carregada do JSON)
+  filtroArea: "Todos", // Área selecionada no filtro
+  termoBusca: "", // Texto digitado no campo de busca
 };
-
 
 /* ----------------------------------------------------------
    2. REFERÊNCIAS AOS ELEMENTOS DO DOM
@@ -37,24 +35,22 @@ const estado = {
    document.getElementById() percorre o HTML toda vez que é
    chamado. Guardando a referência, acessamos diretamente.
    ---------------------------------------------------------- */
-const elListaCursos   = document.getElementById('lista-cursos');
-const elCampoBusca    = document.getElementById('campo-busca');
-const elFiltros       = document.getElementById('filtros');
-const elContador      = document.getElementById('contador');
-const elBtnTema       = document.getElementById('btn-tema');
-const elIconeTema     = document.getElementById('icone-tema');
-
+const elListaCursos = document.getElementById("lista-cursos");
+const elCampoBusca = document.getElementById("campo-busca");
+const elFiltros = document.getElementById("filtros");
+const elContador = document.getElementById("contador");
+const elBtnTema = document.getElementById("btn-tema");
+const elIconeTema = document.getElementById("icone-tema");
 
 /* ----------------------------------------------------------
    3. INICIALIZAÇÃO
    Ponto de entrada: roda quando o DOM está pronto
    ---------------------------------------------------------- */
-document.addEventListener('DOMContentLoaded', () => {
-  carregarTema();     // Aplica tema salvo (dark/light)
-  carregarCursos();   // Busca os dados do JSON
-  configurarEventos();// Liga os eventos de interação
+document.addEventListener("DOMContentLoaded", () => {
+  carregarTema(); // Aplica tema salvo (dark/light)
+  carregarCursos(); // Busca os dados do JSON
+  configurarEventos(); // Liga os eventos de interação
 });
-
 
 /* ----------------------------------------------------------
    4. CARREGAMENTO DOS DADOS
@@ -72,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function carregarCursos() {
   try {
     // Tenta buscar o arquivo JSON
-    const resposta = await fetch('data/cursos.json');
+    const resposta = await fetch("data/cursos.json");
 
     // Se o servidor respondeu com erro (ex: arquivo não encontrado)
     if (!resposta.ok) {
@@ -85,10 +81,9 @@ async function carregarCursos() {
     // Com os dados prontos, cria os filtros e renderiza os cards
     criarBotoesFiltro();
     renderizarCursos();
-
   } catch (erro) {
     // Se algo der errado, exibe mensagem amigável
-    console.error('Falha ao carregar cursos:', erro);
+    console.error("Falha ao carregar cursos:", erro);
     elListaCursos.innerHTML = `
       <div class="vazio">
         <div class="icone-vazio">⚠️</div>
@@ -99,7 +94,6 @@ async function carregarCursos() {
   }
 }
 
-
 /* ----------------------------------------------------------
    5. CRIAÇÃO DOS BOTÕES DE FILTRO
 
@@ -109,17 +103,17 @@ async function carregarCursos() {
    ---------------------------------------------------------- */
 function criarBotoesFiltro() {
   // Set() elimina duplicatas automaticamente
-  const areas = ['Todos', ...new Set(estado.cursos.map(c => c.area))];
+  const areas = ["Todos", ...new Set(estado.cursos.flatMap((c) => c.areas))];
 
-  elFiltros.innerHTML = '<span>Filtrar por:</span>';
+  elFiltros.innerHTML = "<span>Filtrar por:</span>";
 
-  areas.forEach(area => {
-    const btn = document.createElement('button');
-    btn.className = 'btn-filtro' + (area === estado.filtroArea ? ' ativo' : '');
+  areas.forEach((area) => {
+    const btn = document.createElement("button");
+    btn.className = "btn-filtro" + (area === estado.filtroArea ? " ativo" : "");
     btn.textContent = area;
     btn.dataset.area = area;
 
-    btn.addEventListener('click', () => {
+    btn.addEventListener("click", () => {
       estado.filtroArea = area;
       atualizarBotoesFiltro();
       renderizarCursos();
@@ -130,11 +124,10 @@ function criarBotoesFiltro() {
 }
 
 function atualizarBotoesFiltro() {
-  document.querySelectorAll('.btn-filtro').forEach(btn => {
-    btn.classList.toggle('ativo', btn.dataset.area === estado.filtroArea);
+  document.querySelectorAll(".btn-filtro").forEach((btn) => {
+    btn.classList.toggle("ativo", btn.dataset.area === estado.filtroArea);
   });
 }
-
 
 /* ----------------------------------------------------------
    6. FILTRAR CURSOS
@@ -146,22 +139,24 @@ function atualizarBotoesFiltro() {
    - toLowerCase() garante que "redes" encontra "Redes" ou "REDES"
    ---------------------------------------------------------- */
 function filtrarCursos() {
-  return estado.cursos.filter(curso => {
+  return estado.cursos.filter((curso) => {
     // Verifica filtro de área
-    const passaArea = estado.filtroArea === 'Todos' || curso.area === estado.filtroArea;
+    const passaArea =
+      estado.filtroArea === "Todos" ||
+      (curso.areas && curso.areas.includes(estado.filtroArea));
 
     // Verifica busca por texto (nome ou descrição)
     const termo = estado.termoBusca.toLowerCase();
-    const passaBusca = !termo
-      || curso.nome.toLowerCase().includes(termo)
-      || curso.area.toLowerCase().includes(termo)
-      || curso.descricao.toLowerCase().includes(termo);
+    const passaBusca =
+      !termo ||
+      curso.nome.toLowerCase().includes(termo) ||
+      curso.areas.some((area) => area.toLowerCase().includes(termo)) ||
+      curso.descricao.toLowerCase().includes(termo);
 
     // O curso só aparece se passar nos DOIS filtros
     return passaArea && passaBusca;
   });
 }
-
 
 /* ----------------------------------------------------------
    7. RENDERIZAÇÃO DOS CARDS
@@ -194,9 +189,9 @@ function renderizarCursos() {
 
   // Gera o HTML de cada card e junta tudo de uma vez
   // (mais eficiente do que criar elemento por elemento)
-  elListaCursos.innerHTML = cursosVisiveis.map(gerarCardHTML).join('');
+  elListaCursos.innerHTML = cursosVisiveis.map(gerarCardHTML).join("");
+  ativarDragScroll();
 }
-
 
 /* ----------------------------------------------------------
    8. TEMPLATE DO CARD
@@ -208,20 +203,27 @@ function renderizarCursos() {
    ---------------------------------------------------------- */
 function gerarCardHTML(curso) {
   // Define CSS class para cursos encerrados
-  const classeEncerrado = curso.status === 'Encerrado' ? ' encerrado' : '';
+  const classeEncerrado = curso.status === "Encerrado" ? " encerrado" : "";
 
   // Define CSS class para o badge de status
-  const classeStatus = curso.status === 'Disponível' ? 'disponivel' : 'encerrado';
+  const classeStatus =
+    curso.status === "Disponível" ? "disponivel" : "encerrado";
 
   // Desabilita o botão de cursos encerrados
-  const atributoLink = curso.status === 'Encerrado'
-    ? 'aria-disabled="true" style="opacity:0.5;pointer-events:none"'
-    : `href="${curso.link}" target="_blank" rel="noopener noreferrer"`;
+  const atributoLink =
+    curso.status === "Encerrado"
+      ? 'aria-disabled="true" style="opacity:0.5;pointer-events:none"'
+      : `href="${curso.link}" target="_blank" rel="noopener noreferrer"`;
 
   return `
     <article class="card${classeEncerrado}">
       <div class="card-header">
-        <span class="badge-area">${curso.area}</span>
+        <div class="badges-areas">
+          ${(curso.areas || [curso.area])
+            .map((area) => `<span class="badge-area">${area}</span>`)
+            .join("")}
+        </div>
+
         <span class="badge-status ${classeStatus}">${curso.status}</span>
       </div>
 
@@ -232,13 +234,12 @@ function gerarCardHTML(curso) {
       <div class="card-footer">
         <span class="card-carga">⏱ ${curso.cargaHoraria}</span>
         <a class="btn-curso" ${atributoLink}>
-          ${curso.status === 'Disponível' ? 'Acessar curso →' : 'Encerrado'}
+          ${curso.status === "Disponível" ? "Acessar curso →" : "Encerrado"}
         </a>
       </div>
     </article>
   `;
 }
-
 
 /* ----------------------------------------------------------
    9. CONTADOR DE RESULTADOS
@@ -246,12 +247,11 @@ function gerarCardHTML(curso) {
 function atualizarContador(visiveis, total) {
   if (!elContador) return;
   if (visiveis === total) {
-    elContador.textContent = `${total} curso${total !== 1 ? 's' : ''} disponível${total !== 1 ? 'is' : ''}`;
+    elContador.textContent = `${total} curso${total !== 1 ? "s" : ""} disponível${total !== 1 ? "is" : ""}`;
   } else {
     elContador.textContent = `${visiveis} de ${total} cursos`;
   }
 }
-
 
 /* ----------------------------------------------------------
    10. EVENTOS DE INTERAÇÃO
@@ -269,7 +269,7 @@ function atualizarContador(visiveis, total) {
 function configurarEventos() {
   // Busca com debounce
   let timerBusca;
-  elCampoBusca.addEventListener('input', (e) => {
+  elCampoBusca.addEventListener("input", (e) => {
     clearTimeout(timerBusca);
     timerBusca = setTimeout(() => {
       estado.termoBusca = e.target.value.trim();
@@ -279,10 +279,9 @@ function configurarEventos() {
 
   // Botão de alternar tema
   if (elBtnTema) {
-    elBtnTema.addEventListener('click', alternarTema);
+    elBtnTema.addEventListener("click", alternarTema);
   }
 }
-
 
 /* ----------------------------------------------------------
    11. TEMA DARK / LIGHT
@@ -293,22 +292,74 @@ function configurarEventos() {
    ---------------------------------------------------------- */
 function carregarTema() {
   // Verifica preferência salva, ou usa preferência do sistema
-  const temaSalvo = localStorage.getItem('tema');
-  const prefereEscuro = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const tema = temaSalvo || (prefereEscuro ? 'dark' : 'light');
+  const temaSalvo = localStorage.getItem("tema");
+  const prefereEscuro = window.matchMedia(
+    "(prefers-color-scheme: dark)",
+  ).matches;
+  const tema = temaSalvo || (prefereEscuro ? "dark" : "light");
   aplicarTema(tema);
 }
 
 function alternarTema() {
-  const temaAtual = document.documentElement.dataset.theme || 'light';
-  const novoTema = temaAtual === 'dark' ? 'light' : 'dark';
+  const temaAtual = document.documentElement.dataset.theme || "light";
+  const novoTema = temaAtual === "dark" ? "light" : "dark";
   aplicarTema(novoTema);
-  localStorage.setItem('tema', novoTema);
+  localStorage.setItem("tema", novoTema);
 }
 
 function aplicarTema(tema) {
   document.documentElement.dataset.theme = tema;
   if (elIconeTema) {
-    elIconeTema.textContent = tema === 'dark' ? '☀️' : '🌙';
+    elIconeTema.textContent = tema === "dark" ? "☀️" : "🌙";
   }
+}
+
+function ativarDragScroll() {
+  const containers = document.querySelectorAll(".badges-areas");
+
+  containers.forEach((container) => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    container.addEventListener("mousedown", (e) => {
+      isDown = true;
+      container.classList.add("dragging");
+
+      // 🔥 bloqueia seleção global temporariamente
+      document.body.style.userSelect = "none";
+
+      startX = e.pageX - container.offsetLeft;
+      scrollLeft = container.scrollLeft;
+    });
+
+    container.addEventListener("mouseup", () => {
+      isDown = false;
+      container.classList.remove("dragging");
+
+      // 🔥 reativa seleção
+      document.body.style.userSelect = "";
+    });
+
+    container.addEventListener("mouseleave", () => {
+      isDown = false;
+      container.classList.remove("dragging");
+
+      document.body.style.userSelect = "";
+    });
+
+    container.addEventListener("mouseup", () => {
+      isDown = false;
+      container.classList.remove("dragging");
+    });
+
+    container.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+
+      const x = e.pageX - container.offsetLeft;
+      const walk = (x - startX) * 1.5; // velocidade do scroll
+      container.scrollLeft = scrollLeft - walk;
+    });
+  });
 }
