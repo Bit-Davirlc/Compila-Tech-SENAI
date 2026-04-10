@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nome": "Fundamentos de Redes de Computadores",
+    "area": "Redes",
+    "descricao": "Conceitos essenciais de redes: topologias, protocolos TCP/IP, endereçamento e cabeamento estruturado.",
+    "cargaHoraria": "40h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/fundamentos-de-redes-de-computadores/",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "nome": "Introdução à Segurança da Informação",
+    "area": "Segurança",
+    "descricao": "Princípios de segurança digital, tipos de ameaças, boas práticas e fundamentos de criptografia.",
+    "cargaHoraria": "20h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/seguranca-da-informacao/",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "nome": "Fundamentos de Cloud Computing",
+    "area": "Cloud",
+    "descricao": "Introdução à computação em nuvem: modelos IaaS, PaaS e SaaS, principais provedores e casos de uso.",
+    "cargaHoraria": "30h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/cloud-computing/",
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "nome": "Lógica de Programação",
+    "area": "Programação",
+    "descricao": "Base do raciocínio computacional: algoritmos, fluxogramas, estruturas de decisão e repetição.",
+    "cargaHoraria": "40h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/logica-de-programacao/",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "nome": "Introdução ao Linux",
+    "area": "Redes",
+    "descricao": "Sistema operacional Linux para iniciantes: comandos essenciais, gerenciamento de arquivos e usuários.",
+    "cargaHoraria": "20h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/linux/",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "nome": "Desenvolvimento Web com HTML e CSS",
+    "area": "Programação",
+    "descricao": "Criação de páginas web modernas com HTML5 semântico e CSS3 responsivo.",
+    "cargaHoraria": "40h",
+    "status": "Encerrado",
+    "link": "https://www.sp.senai.br/curso/html-css/",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "nome": "Ethical Hacking — Fundamentos",
+    "area": "Segurança",
+    "descricao": "Introdução ao hacking ético: metodologias de pentest, ferramentas e responsabilidade legal.",
+    "cargaHoraria": "30h",
+    "status": "Disponível",
+    "link": "https://www.sp.senai.br/curso/ethical-hacking/",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "nome": "AWS Cloud Practitioner Essentials",
+    "area": "Cloud",
+    "descricao": "Preparação para a certificação AWS Cloud Practitioner: serviços core, segurança e arquitetura na nuvem.",
+    "cargaHoraria": "60h",
+    "status": "Encerrado",
+    "link": "https://www.sp.senai.br/curso/aws/",
+    "destaque": false
+  }
+]

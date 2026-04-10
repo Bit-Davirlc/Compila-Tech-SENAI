@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<!--
+  POR QUÊ data-theme no <html>?
+  O CSS vai ler esse atributo para aplicar as variáveis
+  corretas de cor (dark ou light). O JavaScript alterna
+  esse valor sem recarregar a página.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <!--
+    viewport: garante que o site funcione bem em celulares.
+    Sem isso, o mobile exibe a versão "desktop" com zoom out.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico — importante para portfólio aparecer em buscas -->
+  <meta name="description" content="Lista de cursos gratuitos do SENAI na área de Tecnologia da Informação: Redes, Cloud, Segurança e Programação.">
+  <meta name="author" content="Seu Nome Aqui">
+
+  <title>SENAI — Cursos Gratuitos de TI</title>
+
+  <!-- Ícone da aba do navegador (favicon) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+  <!-- Nosso arquivo de estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================================================
+    HEADER — Cabeçalho fixo no topo
+  ================================================= -->
+  <header>
+    <div class="header-inner">
+
+      <!-- Logo: badge SENAI + nome do projeto -->
+      <a class="logo" href="index.html" aria-label="Ir para o início">
+        <span class="logo-badge">SENAI</span>
+        <span class="logo-texto">Cursos Gratuitos · TI</span>
+      </a>
+
+      <!-- Botão de alternar tema dark/light -->
+      <!--
+        aria-label: descreve o botão para leitores de tela.
+        Acessibilidade é valorizada em entrevistas técnicas!
+      -->
+      <button
+        id="btn-tema"
+        class="btn-tema"
+        aria-label="Alternar tema escuro e claro"
+        title="Alternar tema"
+      >
+        <span id="icone-tema">🌙</span>
+        <span>Tema</span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- ================================================
+    HERO — Seção de destaque / apresentação
+  ================================================= -->
+  <section class="hero" aria-label="Apresentação do site">
+    <h1>Cursos Gratuitos de TI</h1>
+    <p>
+      Cursos gratuitos do SENAI nas áreas de Redes, Cloud,
+      Segurança da Informação e Programação.
+    </p>
+  </section>
+
+
+  <!-- ================================================
+    CONTROLES — Busca e filtros
+  ================================================= -->
+  <section class="controles" aria-label="Busca e filtros">
+
+    <!-- Campo de busca -->
+    <div class="busca-wrapper">
+      <span class="icone-busca" aria-hidden="true">🔍</span>
+      <input
+        type="search"
+        id="campo-busca"
+        placeholder="Buscar por nome, área ou descrição..."
+        aria-label="Buscar cursos"
+        autocomplete="off"
+      >
+    </div>
+
+    <!-- Botões de filtro por área — gerados dinamicamente pelo JS -->
+    <!--
+      POR QUÊ DEIXAR VAZIO AQUI?
+      O app.js vai criar os botões automaticamente com base
+      nas áreas encontradas no JSON. Se você adicionar uma
+      nova área no JSON, o botão aparece sozinho.
+    -->
+    <div id="filtros" class="filtros" role="group" aria-label="Filtrar por área"></div>
+
+  </section>
+
+  <!-- Contador de resultados -->
+  <div id="contador" class="contador" aria-live="polite">
+    <!--
+      aria-live="polite": anuncia mudanças para leitores de tela
+      quando o contador atualiza — mais acessibilidade!
+    -->
+  </div>
+
+
+  <!-- ================================================
+    LISTA DE CURSOS — Preenchida pelo JavaScript
+  ================================================= -->
+  <!--
+    POR QUÊ <main>?
+    Elemento semântico que indica o conteúdo principal da página.
+    Leitores de tela e motores de busca entendem melhor a estrutura.
+  -->
+  <main id="lista-cursos" aria-label="Lista de cursos">
+    <!--
+      Este conteúdo é gerado dinamicamente pelo app.js.
+      Enquanto o JSON não carrega, aparece vazio.
+      (Você pode adicionar um "esqueleto" de loading depois!)
+    -->
+  </main>
+
+
+  <!-- ================================================
+    FOOTER — Rodapé
+  ================================================= -->
+  <footer>
+    <p>
+      Projeto de portfólio · Dados baseados em cursos do
+      <a href="https://www.sp.senai.br" target="_blank" rel="noopener noreferrer">SENAI SP</a>
+      · Atualizado em 2025
+    </p>
+  </footer>
+
+
+  <!-- ================================================
+    SCRIPT — Carregado no FIM do body
+  ================================================= -->
+  <!--
+    POR QUÊ NO FINAL?
+    O navegador lê o HTML de cima para baixo.
+    Se o script estivesse no <head>, ele rodaria antes
+    de os elementos (botões, listas) existirem na página —
+    e o JavaScript não conseguiria encontrá-los.
+
+    Alternativa moderna: <script type="module"> no <head>
+    (veremos isso numa evolução futura do projeto).
+  -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
