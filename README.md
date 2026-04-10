@@ -1,88 +1,175 @@
 # 🎓 SENAI — Cursos Gratuitos de TI
 
-> Projeto de portfólio desenvolvido como estudante de Desenvolvimento de Sistemas.  
-> Lista de cursos gratuitos do SENAI nas áreas de Redes, Cloud, Segurança e Programação.
+> Projeto de portfólio desenvolvido como estudante de Desenvolvimento de Sistemas.
+> Plataforma que centraliza cursos gratuitos do SENAI com foco em **Cloud, Segurança, Redes, Dados e Programação**.
+
+---
 
 ## ✨ Funcionalidades
 
-- 🔍 **Busca** por nome, área ou descrição
-- 🏷️ **Filtros** por área (Redes, Cloud, Segurança, Programação)
-- 🌙 **Tema Dark/Light** com persistência no localStorage
-- 📱 **Responsivo** — funciona em celular, tablet e desktop
-- ♿ **Acessível** — uso correto de ARIA e elementos semânticos
+* 🔍 **Busca inteligente** por nome, área ou descrição
+* 🏷️ **Multi-categorias por curso** (ex: Cloud + Dados + Segurança)
+* 🎯 **Classificação automática** baseada em palavras-chave
+* 🧭 **Filtros dinâmicos por área**
+* 🖱️ **Scroll horizontal nas categorias (drag)**
+* 🌙 **Tema Dark/Light** com persistência no `localStorage`
+* 📱 **Totalmente responsivo** (mobile-first)
+* ♿ **Acessível** — uso de HTML semântico e boas práticas de ARIA
+
+---
+
+## 🧠 Diferenciais do Projeto
+
+* 🔄 **Atualização automatizada de cursos (scraping)**
+* 🧩 Estrutura preparada para crescimento (dados desacoplados em JSON)
+* 🏷️ Sistema de **multi-classificação** (um curso pode pertencer a várias áreas)
+* 💡 UX aprimorada (drag, overflow controlado, badges dinâmicas)
+
+---
 
 ## 🗂️ Estrutura do Projeto
 
 ```
 senai-cursos-ti/
 ├── index.html          # Estrutura da página
-├── README.md           # Este arquivo
+├── README.md           # Documentação
 ├── css/
-│   └── style.css       # Estilos e variáveis de tema
+│   └── style.css       # Estilos, temas e responsividade
 ├── js/
-│   └── app.js          # Lógica: carregamento, busca e filtros
-└── data/
-    └── cursos.json     # Dados dos cursos (adicione novos aqui!)
+│   └── app.js          # Lógica (render, busca, filtros, UX)
+├── data/
+│   └── cursos.json     # Base de cursos
+└── scripts/
+    └── scraper.py      # Coleta automática dos cursos (opcional)
 ```
+
+---
 
 ## 🚀 Como Rodar
 
-Por usar `fetch()` para carregar o JSON, o projeto precisa de um servidor local.
+Por usar `fetch()` para carregar o JSON, é necessário um servidor local.
 
-### Opção 1 — VS Code (recomendado)
+### 🔹 Opção 1 — VS Code (recomendado)
+
 1. Instale a extensão **Live Server**
 2. Clique com botão direito em `index.html`
 3. Selecione **"Open with Live Server"**
 
-### Opção 2 — Terminal
+---
+
+### 🔹 Opção 2 — Terminal
+
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Node.js (se tiver instalado)
+# Node.js
 npx serve .
 ```
 
-## ➕ Adicionar um Novo Curso
+---
 
-Abra `data/cursos.json` e adicione um objeto seguindo o padrão:
+## 🔄 Atualização Automática (Scraping)
+
+O projeto pode coletar cursos diretamente do site do SENAI.
+
+### ▶️ Executar script:
+
+```bash
+python scripts/scraper.py
+```
+
+✔ Extrai cursos automaticamente
+✔ Remove duplicados
+✔ Atualiza o `cursos.json`
+
+---
+
+## ➕ Estrutura de um Curso
 
 ```json
 {
-  "id": 9,
-  "nome": "Nome do Curso",
-  "area": "Redes",
-  "descricao": "Breve descrição do que o curso ensina.",
-  "cargaHoraria": "20h",
+  "id": "110384",
+  "nome": "Administração de Sistemas ServiceNow - CSA",
+  "areas": ["Cloud", "Infraestrutura"],
+  "descricao": "Curso voltado à administração de sistemas ServiceNow.",
+  "cargaHoraria": "40h",
   "status": "Disponível",
-  "link": "https://link-do-curso.com.br",
+  "link": "https://www.sp.senai.br/curso/...",
   "destaque": false
 }
 ```
 
-**Áreas disponíveis:** `Redes` · `Cloud` · `Segurança` · `Programação`  
-**Status disponíveis:** `Disponível` · `Encerrado`
+---
 
-## 🛠️ Tecnologias
+## 🏷️ Categorias Suportadas
 
-- HTML5 semântico
-- CSS3 com variáveis (custom properties)
-- JavaScript puro (Vanilla JS)
-- JSON como fonte de dados
+* ☁️ Cloud
+* 🔐 Segurança
+* 🌐 Redes
+* 💻 Programação
+* 📊 Dados
+* 🏗️ Infraestrutura
 
-## 📈 Próximas Melhorias (roadmap)
-
-- [ ] Deploy no GitHub Pages
-- [ ] Marcar cursos como favoritos (localStorage)
-- [ ] Trilhas de estudo (ordenação por sequência)
-- [ ] Filtro por carga horária
-- [ ] Modo PWA (funcionar offline)
-
-## 👤 Autor
-
-Desenvolvido por **[Seu Nome]**  
-[LinkedIn](https://linkedin.com) · [GitHub](https://github.com)
+> Um curso pode pertencer a **múltiplas categorias simultaneamente**.
 
 ---
 
-*Dados baseados nos cursos gratuitos do [SENAI SP](https://www.sp.senai.br) — atualizado em 2025.*
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5 semântico
+* CSS3 (Custom Properties + Flexbox)
+* JavaScript (Vanilla JS)
+* JSON (persistência local)
+* Python (Web Scraping com BeautifulSoup)
+
+---
+
+## 📈 Roadmap
+
+* [x] Deploy no GitHub Pages
+* [x] Multi-categorias
+* [x] Classificação automática
+* [ ] Favoritar cursos (localStorage)
+* [ ] Trilhas de estudo personalizadas
+* [ ] Filtro por carga horária
+* [ ] Integração com APIs externas
+* [ ] PWA (modo offline)
+
+---
+
+## 📦 Versionamento
+
+Este projeto segue o padrão **SemVer (Semantic Versioning)**:
+
+```
+MAJOR.MINOR.PATCH
+```
+
+Exemplo:
+
+* `1.0.0` → primeira versão estável
+* `1.1.0` → novas funcionalidades
+* `1.1.1` → correções
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Davi Robson**
+🎓 Estudante de Desenvolvimento de Sistemas
+🎯 Foco em Infraestrutura, Cloud e Segurança
+
+🔗 GitHub: https://github.com/Bit-Davirlc
+
+---
+
+## 📌 Observações
+
+* Dados baseados nos cursos gratuitos do SENAI SP
+* Atualização semi-automática via scraping
+* Projeto com foco em portfólio e aprendizado prático
+
+---
+
+⭐ Se este projeto te ajudou, considere dar um star no repositório!
