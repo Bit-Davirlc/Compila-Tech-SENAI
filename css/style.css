@@ -367,6 +367,8 @@ header {
 
   scrollbar-width: thin; /* Firefox */
   cursor: grab;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 
   user-select: none; /* Evita seleção de texto ao arrastar */
   -webkit-user-select: none;
