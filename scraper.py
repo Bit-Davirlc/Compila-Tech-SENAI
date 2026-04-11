@@ -6,7 +6,7 @@ import os
 import time
 
 BASE_URL = "https://www.sp.senai.br/cursos/cursos-livres/tecnologia-da-informacao-e-informatica"
-PARAMS = "?modalidade=1&regiao=1&gratuito=1&pag={}"
+PARAMS = "?regiao=1&gratuito=1&pag={}"
 BASE_SITE = "https://www.sp.senai.br"
 
 ARQUIVO_JSON = os.path.join("data", "cursos.json")
@@ -148,10 +148,13 @@ def extrair_id(href):
 # =========================
 
 def obter_detalhes(idcurso):
-    url = f"{BASE_SITE}/cursosdescricao/{idcurso}"
+    url_descricao = f"{BASE_SITE}/cursosdescricao/{idcurso}"
 
     try:
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        # =========================
+        # 📄 PÁGINA DE DESCRIÇÃO
+        # =========================
+        response = requests.get(url_descricao, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(response.text, "html.parser")
 
         descricao = "Descrição não encontrada"
@@ -231,11 +234,28 @@ def extrair_cursos_pagina(pagina):
             print(f"⚠️ ID inválido: {href}")
             continue
 
+        # ── MODALIDADE ────────────────────────────────────
+        # Primeiro .badge-pill sempre contém a modalidade.
+        # Valores observados no HTML real: "A Distância", "Presencial"
+        modalidade = "Indefinida"
+        badges = card.select(".badge-pill")
+        if badges:
+            modalidade = badges[0].get_text(strip=True)
+
+        # ── STATUS ────────────────────────────────────────
+        # 3 casos identificados no HTML real:
+        #   .btn-turmas com "Inscreva-se" → Disponível  (EAD)
+        #   .btn-turmas com "VER TURMAS"  → Disponível  (Presencial)
+        #   Sem .btn-turmas               → Indisponível
+        status = "Disponível" if card.select(".btn-turmas") else "Indisponível"
+
         # 🔥 deduplicação automática via dict
         cursos[idcurso] = {
-            "id": idcurso,
-            "nome": nome,
-            "link": href
+            "id":         idcurso,
+            "nome":       nome,
+            "link":       href,
+            "modalidade": modalidade,
+            "status":     status,
         }
 
     print(f"✅ Cursos extraídos: {len(cursos)}")
@@ -301,14 +321,15 @@ def atualizar_cursos():
         areas = classificar_areas(curso["nome"], descricao)
 
         dados = {
-            "id": idcurso,
-            "nome": curso["nome"],
-            "areas": areas,
-            "descricao": descricao,
+            "id":           idcurso,
+            "nome":         curso["nome"],
+            "areas":        areas,
+            "descricao":    descricao,
             "cargaHoraria": carga,
-            "status": "Disponível",
-            "link": curso["link"],
-            "destaque": any(area in ["Cloud", "Segurança"] for area in areas)
+            "status":       curso["status"],       # vem do card
+            "modalidade":   curso["modalidade"],   # vem do card
+            "link":         curso["link"],
+            "destaque":     any(area in ["Cloud", "Segurança"] for area in areas)
         }
 
         if idcurso in mapa:

@@ -1,175 +1,147 @@
-# 🎓 SENAI — Cursos Gratuitos de TI
+🎓 SENAI — Cursos Gratuitos de TI
+Projeto de portfólio desenvolvido como estudante de Desenvolvimento de Sistemas.
+Plataforma que centraliza cursos gratuitos do SENAI com foco em Cloud, Segurança, Redes, Dados e Programação.
 
-> Projeto de portfólio desenvolvido como estudante de Desenvolvimento de Sistemas.
-> Plataforma que centraliza cursos gratuitos do SENAI com foco em **Cloud, Segurança, Redes, Dados e Programação**.
+✨ Funcionalidades
+🔍 Busca inteligente por nome, área ou descrição
 
----
+🏷️ Multi-categorias por curso (ex: Cloud + Dados + Segurança)
 
-## ✨ Funcionalidades
+🎯 Classificação automática baseada em palavras-chave
 
-* 🔍 **Busca inteligente** por nome, área ou descrição
-* 🏷️ **Multi-categorias por curso** (ex: Cloud + Dados + Segurança)
-* 🎯 **Classificação automática** baseada em palavras-chave
-* 🧭 **Filtros dinâmicos por área**
-* 🖱️ **Scroll horizontal nas categorias (drag)**
-* 🌙 **Tema Dark/Light** com persistência no `localStorage`
-* 📱 **Totalmente responsivo** (mobile-first)
-* ♿ **Acessível** — uso de HTML semântico e boas práticas de ARIA
+🧭 Filtros dinâmicos por Área, Status e Modalidade
 
----
+🖱️ Scroll horizontal nas categorias (drag) para melhor UX
 
-## 🧠 Diferenciais do Projeto
+🌙 Tema Dark/Light com persistência no localStorage
 
-* 🔄 **Atualização automatizada de cursos (scraping)**
-* 🧩 Estrutura preparada para crescimento (dados desacoplados em JSON)
-* 🏷️ Sistema de **multi-classificação** (um curso pode pertencer a várias áreas)
-* 💡 UX aprimorada (drag, overflow controlado, badges dinâmicas)
+📱 Totalmente responsivo (mobile-first)
 
----
+♿ Acessível — uso de HTML semântico e boas práticas de ARIA
 
-## 🗂️ Estrutura do Projeto
+🧠 Diferenciais do Projeto
+🔄 Atualização automatizada de cursos (scraping) via Python
 
-```
+🧩 Estrutura preparada para crescimento (dados desacoplados em JSON)
+
+🏷️ Sistema de multi-classificação (um curso pode pertencer a várias áreas)
+
+💡 UX aprimorada (drag scroll, animações de entrada e badges dinâmicas)
+
+🗂️ Estrutura do Projeto
 senai-cursos-ti/
-├── index.html          # Estrutura da página
-├── README.md           # Documentação
+├── index.html # Estrutura da página e filtros
+├── README.md # Documentação
 ├── css/
-│   └── style.css       # Estilos, temas e responsividade
+│ └── style.css # Design System, temas e animações
 ├── js/
-│   └── app.js          # Lógica (render, busca, filtros, UX)
+│ └── app.js # Lógica de renderização, busca e filtros
 ├── data/
-│   └── cursos.json     # Base de cursos
+│ └── cursos.json # Base de dados dos cursos
 └── scripts/
-    └── scraper.py      # Coleta automática dos cursos (opcional)
-```
+└── scraper.py # Script de coleta e classificação automática
+🚀 Como Rodar
+Por usar fetch() para carregar o JSON, é necessário um servidor local.
 
----
+🔹 Opção 1 — VS Code (recomendado)
+Instale a extensão Live Server
 
-## 🚀 Como Rodar
+Clique com botão direito em index.html
 
-Por usar `fetch()` para carregar o JSON, é necessário um servidor local.
+Selecione "Open with Live Server"
 
-### 🔹 Opção 1 — VS Code (recomendado)
+🔹 Opção 2 — Terminal
+Bash
 
-1. Instale a extensão **Live Server**
-2. Clique com botão direito em `index.html`
-3. Selecione **"Open with Live Server"**
-
----
-
-### 🔹 Opção 2 — Terminal
-
-```bash
 # Python 3
+
 python -m http.server 8000
 
 # Node.js
+
 npx serve .
-```
+🔄 Atualização Automática (Scraping)
+O projeto utiliza um script em Python para manter a base de dados atualizada.
 
----
-
-## 🔄 Atualização Automática (Scraping)
-
-O projeto pode coletar cursos diretamente do site do SENAI.
-
-### ▶️ Executar script:
-
-```bash
+▶️ Executar script:
+Bash
 python scripts/scraper.py
-```
+✔ Extrai títulos, descrições e carga horária automaticamente
+✔ Classifica o curso em múltiplas áreas via palavras-chave
+✔ Identifica automaticamente o status e modalidade
+✔ Atualiza o cursos.json mantendo a estrutura original
 
-✔ Extrai cursos automaticamente
-✔ Remove duplicados
-✔ Atualiza o `cursos.json`
+➕ Estrutura de um Curso
+JSON
+  {
+    "id": 110384,
+    "nome": "Administração de Sistemas ServiceNow - CSA",
+    "areas": [
+      "Programação",
+      "IA",
+      "Certificação"
+    ],
+    "descricao": "O curso de aperfeiçoamento profissional Administração de Sistemas ServiceNow - CSA tem por objetivo o desenvolvimento das competências relativas à utilização e aplicação dos serviços fundamentais da plataforma ServiceNow. Ao final do curso, o aluno estará preparado para pleitear a certificação Certified System Administrator - CSA.",
+    "cargaHoraria": "32 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/administracao-de-sistemas-servicenow-csa/110384",
+    "destaque": false
+  }
+🏷️ Categorias Suportadas
+☁️ Cloud
 
----
+🔐 Segurança
 
-## ➕ Estrutura de um Curso
+🌐 Redes
 
-```json
-{
-  "id": "110384",
-  "nome": "Administração de Sistemas ServiceNow - CSA",
-  "areas": ["Cloud", "Infraestrutura"],
-  "descricao": "Curso voltado à administração de sistemas ServiceNow.",
-  "cargaHoraria": "40h",
-  "status": "Disponível",
-  "link": "https://www.sp.senai.br/curso/...",
-  "destaque": false
-}
-```
+💻 Programação
 
----
+📊 Dados
 
-## 🏷️ Categorias Suportadas
+🏗️ Infraestrutura
 
-* ☁️ Cloud
-* 🔐 Segurança
-* 🌐 Redes
-* 💻 Programação
-* 📊 Dados
-* 🏗️ Infraestrutura
+🤖 IA
 
-> Um curso pode pertencer a **múltiplas categorias simultaneamente**.
+🛠️ Tecnologias Utilizadas
+Web: HTML5 semântico, CSS3 (Variables + Grid), JavaScript (ES6+)
 
----
+Automação: Python (BeautifulSoup + Requests)
 
-## 🛠️ Tecnologias Utilizadas
+Persistência: JSON e LocalStorage
 
-* HTML5 semântico
-* CSS3 (Custom Properties + Flexbox)
-* JavaScript (Vanilla JS)
-* JSON (persistência local)
-* Python (Web Scraping com BeautifulSoup)
+📈 Roadmap
+[x] Deploy no GitHub Pages
 
----
+[x] Multi-categorias e Destaques
 
-## 📈 Roadmap
+[x] Filtros por Status e Modalidade
 
-* [x] Deploy no GitHub Pages
-* [x] Multi-categorias
-* [x] Classificação automática
-* [ ] Favoritar cursos (localStorage)
-* [ ] Trilhas de estudo personalizadas
-* [ ] Filtro por carga horária
-* [ ] Integração com APIs externas
-* [ ] PWA (modo offline)
+[x] Sistema de Temas (Dark/Light)
 
----
+[ ] Favoritar cursos (localStorage)
 
-## 📦 Versionamento
+[ ] Trilhas de estudo personalizadas
 
-Este projeto segue o padrão **SemVer (Semantic Versioning)**:
+[ ] PWA (modo offline)
 
-```
-MAJOR.MINOR.PATCH
-```
+📦 Versionamento
+Este projeto segue o padrão SemVer (Semantic Versioning):
 
-Exemplo:
+MAJOR.MINOR.PATCH (Ex: 1.2.0 — adição de filtros de modalidade e status)
 
-* `1.0.0` → primeira versão estável
-* `1.1.0` → novas funcionalidades
-* `1.1.1` → correções
-
----
-
-## 👤 Autor
-
-Desenvolvido por **Davi Robson**
+👤 Autor
+Desenvolvido por Davi Robson
 🎓 Estudante de Desenvolvimento de Sistemas
 🎯 Foco em Infraestrutura, Cloud e Segurança
 
 🔗 GitHub: https://github.com/Bit-Davirlc
 
----
+📌 Observações
+Dados baseados nos cursos gratuitos do portal SENAI SP
 
-## 📌 Observações
+Classificação automatizada via análise de strings no Scraper
 
-* Dados baseados nos cursos gratuitos do SENAI SP
-* Atualização semi-automática via scraping
-* Projeto com foco em portfólio e aprendizado prático
-
----
+Projeto focado em demonstrar habilidades de Front-end e Integração de Dados
 
 ⭐ Se este projeto te ajudou, considere dar um star no repositório!
