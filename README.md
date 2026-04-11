@@ -89,6 +89,7 @@ JSON
   "link": "[https://www.sp.senai.br/curso/administracao-de-sistemas-servicenow-csa/110384](https://www.sp.senai.br/curso/administracao-de-sistemas-servicenow-csa/110384)",
   "destaque": false
 }
+```
 🏷️ Categorias Suportadas
 ☁️ Cloud
 
