@@ -253,7 +253,7 @@
     ],
     "descricao": "O curso de Desenvolvimento de soluções em inteligência artificial - Microsoft AI-102, tem como objetivo capacitar os alunos para projetar, implementar e gerenciar soluções de Inteligência Artificial (IA) robustas e escaláveis utilizando os serviços do Microsoft Azure, preparando-os para a certificação AI-102.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/desenvolvimento-de-solucoes-em-inteligencia-artificial-microsoft-ai-102/107913",
     "destaque": false
@@ -436,7 +436,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional de Fundamentos do Python 1 tem por objetivo o desenvolvimento de competências relativas à programação utilizando linguagem Python, bem como preparar o profissional para obter as certificações PCEP ? Certified Entry-Level Python Programmer (Exame PCEP-30-0x), seguindo boas práticas, procedimentos e normas.",
     "cargaHoraria": "30 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/fundamentos-do-python-1/102159",
     "destaque": false
@@ -521,7 +521,7 @@
     ],
     "descricao": "O curso de Implantação de Serviços de Inteligência Artificial Generativa em Nuvem - Google Cloud tem por objetivo desenvolver e implantar soluções de Inteligência Artificial (IA) generativa usando o modelo fundacional Gemini, de acordo com boas práticas de IA responsável e utilizando produtos Google Cloud. Este curso proporciona condições para que o aluno obtenha microcertificação (badges) emitidas pela Google Cloud.",
     "cargaHoraria": "40 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-inteligencia-artificial-generativa-em-nuvem-google-cloud/104404",
     "destaque": true
@@ -536,7 +536,7 @@
     ],
     "descricao": "O curso de Implantação de Serviços em Nuvem - Google Cloud Foundations tem por objetivo preparar o estudante para certificações Cloud Digital Leader, permitindo articular os recursos dos principais produtos e serviços do Google Cloud, desenvolvendo capacidades que possibilitem ao concluinte implementar serviços de armazenamento e análise de dados, utilizando as principais tecnologias da área disponíveis nos serviços de nuvem.",
     "cargaHoraria": "40 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-em-nuvem-google-cloud-foundations/97815",
     "destaque": true
@@ -550,7 +550,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento Profissional de Programação para inteligência artificial generativa tem por objetivo implementar soluções de software através de inteligência artificial generativa, identificando e corrigindo erros comuns em aplicações, reescrevendo códigos com intuito de melhorar a compreensão de sua escrita e desempenho geral de aplicação, aprimorando o aprendizado de novas tecnologias.",
     "cargaHoraria": "40 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/implementacao-em-big-data/102660",
     "destaque": false
@@ -564,7 +564,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional Interfaces Web com Bootstrap tem por objetivo o desenvolvimento de competências relativas ao desenvolvimento de interfaces web por meio do framework Bootstrap, seguindo as boas práticas, procedimentos e normas.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/interfaces-web-com-bootstrap/102678",
     "destaque": false
@@ -591,7 +591,7 @@
     ],
     "descricao": "O Curso de Qualificação Profissional Operador de Microcomputador tem por objetivo desenvolver competências relacionadas a instalação e configuração de aplicativos, detecção de falhas de hardware e do sistema operacional, assegurando o funcionamento do sistema. Utiliza os principais recursos do Word, do Excel, do PowerPoint e de navegação na internet.",
     "cargaHoraria": "160 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/operador-de-microcomputador/94243",
     "destaque": false
@@ -742,7 +742,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional de Programação Oracle - Java Foundations tem por objetivo o desenvolvimento de competências relativas à programação de software utilizando a linguagem Java, por meio dos conteúdos formativos da Oracle Academy, possibilitando que o profissional pleiteie a certificação Oracle ? Java Foundations.",
     "cargaHoraria": "80 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/programacao-oracle-java-foundations/98923",
     "destaque": false
@@ -798,7 +798,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento Profissional Programação Java tem por objetivo o desenvolvimento de competências relativas à utilização da tecnologia Java como linguagem de programação e acesso a banco de dados relacionais, fornecendo conhecimentos para a elaboração e desenvolvimento de aplicações do desktop, apresentando os aspectos fundamentais para a criação da interface do usuário, a comunicação remota entre computadores por intermédio de aplicações cliente-servidor e acesso à banco de dados.",
     "cargaHoraria": "120 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/programacao-java/54589",
     "destaque": false
@@ -829,7 +829,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento Profissional Redes de Computadores - Implantação de Redes Locais tem por objetivo o desenvolvimento de competências relativas à identificação de redes, pela sua abrangência, topologia e arquitetura, realizando a montagem  da infraestrutura física da rede por meio do uso de ferramentas e dispositivos específicos e configurando serviços e protocolos visando a comunicação e conectividade entre os ativos de rede, de acordo com normas técnicas, ambientais, de qualidade e de segurança e saúde no trabalho.",
     "cargaHoraria": "48 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/redes-de-computadores-implantacao-de-redes-locais/102339",
     "destaque": true
@@ -843,7 +843,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento Profissional de Soluções integradas com IoT tem por objetivo o desenvolvimento de competências relativas à implementação de soluções com tecnologias de IoT para a integração de sistemas, por meio de sensores, atuadores e aplicações de interfaces gráficas, seguindo boas práticas, procedimentos e normas.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/solucoes-integradas-com-iot/102625",
     "destaque": false
@@ -1140,5 +1140,108 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/soc-centro-de-operacoes-de-seguranca/101901",
     "destaque": true
+  },
+  {
+    "id": 111810,
+    "nome": "Criação de Aplicativos com Google Firebase e Gemini",
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "Programação",
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso Criação de Aplicativos com Google Firebase e Gemini tem por objetivo capacitar o aluno a utilizar IA generativa com Gemini e fundamentos de programação para prototipar rapidamente um aplicativo, configurar e integrar serviços do Firebase (Authentication, Cloud Firestore e Hosting), implementar persistência de dados e autenticação, publicar uma versão estática com URL pública e aplicar noções introdutórias de segurança, privacidade (LGPD) e IA responsável. O curso inclui prática obrigatória por meio de trilhas e laboratórios do Google Skills.",
+    "cargaHoraria": "32 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/criacao-de-aplicativos-com-google-firebase-e-gemini/111810",
+    "destaque": true
+  },
+  {
+    "id": 94033,
+    "nome": "Excel Avançado",
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional Excel Avançado tem por objetivo o desenvolvimento de competências para elaborar planilhas automatizadas, utilizando funções aninhadas, controles de formulário, importação de dados, gravação de macros, considerando a organização e proteção dos dados. Criar tabelas e gráficos dinâmicos, subtotais e filtros avançados.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/excel-avancado/94033",
+    "destaque": false
+  },
+  {
+    "id": 112650,
+    "nome": "Fundamentos de Inteligência Artificial e Análise de Dados",
+    "areas": [
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso de aperfeiçoamento profissional em Fundamentos de Inteligência Artificial e Análise de Dados tem como objetivo desenvolver competências relativas à aplicação de fundamentos de inteligência artificial, de manipulação e de análise de dados no contexto industrial, de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/fundamentos-de-inteligencia-artificial-e-analise-de-dados/112650",
+    "destaque": false
+  },
+  {
+    "id": 112089,
+    "nome": "Implantação de Serviços de Inteligência Artificial em Nuvem - Microsoft AI901",
+    "areas": [
+      "Cloud",
+      "IA"
+    ],
+    "descricao": "O curso de Implantação de Serviços de Inteligência Artificial em Nuvem - Microsoft AI901 tem por objetivo desenvolver capacidades que possibilitem ao concluinte compreender os conceitos fundamentais de Inteligência Artificial (IA) e implementar soluções baseadas em IA utilizando os serviços do Microsoft Azure, por meio das principais tecnologias da área disponíveis nos serviços de nuvem.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/implantacao-de-servicos-de-inteligencia-artificial-em-nuvem-microsoft-ai901/112089",
+    "destaque": true
+  },
+  {
+    "id": 87471,
+    "nome": "Lógica de Programação com Arduíno",
+    "areas": [
+      "Segurança",
+      "Programação"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional ? Lógica de Programação com Arduíno tem por objetivo o desenvolvimento de raciocínio lógico, para a estruturação de programas utilizando a Interface de Desenvolvimento do Arduíno, resolvendo problemas através de programas otimizados, seguindo procedimentos e normas técnicas de qualidade, saúde e segurança no trabalho.",
+    "cargaHoraria": "32 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/logica-de-programacao-com-arduino/87471",
+    "destaque": true
+  },
+  {
+    "id": 102352,
+    "nome": "Administrador de Servidores Windows",
+    "areas": [
+      "Cloud",
+      "Programação",
+      "IA",
+      "Infraestrutura"
+    ],
+    "descricao": "O Curso de Especialização Profissional Administrador de Servidores Windows tem por objetivo o desenvolvimento de competências relativas à instalação, configuração, gerenciamento e monitoramento on premise e na nuvem de servidores Windows.",
+    "cargaHoraria": "80 horas",
+    "status": "Indisponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/administrador-de-servidores-windows/102352",
+    "destaque": true
+  },
+  {
+    "id": 111904,
+    "nome": "Soluções de Inteligência Artificial Generativa utilizando serviços AWS",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de Soluções de Inteligência Artificial Generativa utilizando serviços AWS tem como objetivo desenvolver competências relativas à realização de projetos e soluções de Inteligência Artificial (IA) robustas e escaláveis utilizando os serviços em nuvem da AWS, preparando-os para a certificação AI Practitioner AIF-C01.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/solucoes-de-inteligencia-artificial-generativa-utilizando-servicos-aws/111904",
+    "destaque": false
   }
 ]
