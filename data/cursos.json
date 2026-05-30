@@ -1257,5 +1257,31 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/microsoft-office-excel/102704",
     "destaque": false
+  },
+  {
+    "id": 76051,
+    "nome": "Illustrator",
+    "areas": [
+      "Outros"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional Illustrator capacita o aluno a fazer diversos tipos de ilustrações com auxílio do aplicativo.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/illustrator/76051",
+    "destaque": false
+  },
+  {
+    "id": 76047,
+    "nome": "Photoshop",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional Photoshop capacita o aluno a manipular e editar imagens digitais, utilizando ferramentas e recursos básicos do Photoshop.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/photoshop/76047",
+    "destaque": false
   }
 ]
