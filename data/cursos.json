@@ -942,7 +942,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento CCNA V7: INTRODUCTION TO NETWORKS tem por objetivo desenvolver competências profissionais referentes ao   planejamento, configuração e implementação de redes locais (LAN) de pequeno porte, parametrizando roteadores e switches, bem como endereçamento IP.",
     "cargaHoraria": "72 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/ccna-v7-introduction-to-networks/92799",
     "destaque": false
@@ -1242,6 +1242,20 @@
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/solucoes-de-inteligencia-artificial-generativa-utilizando-servicos-aws/111904",
+    "destaque": false
+  },
+  {
+    "id": 102704,
+    "nome": "Microsoft Office Excel",
+    "areas": [
+      "Programação",
+      "IA"
+    ],
+    "descricao": "O curso de Aperfeiçoamento Profissional de Microsoft Office Excel tem por objetivo o desenvolvimento de competências necessárias para utilizar os recursos do Microsoft Office Excel, bem como preparar o profissional para obter as certificações.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/microsoft-office-excel/102704",
     "destaque": false
   }
 ]
