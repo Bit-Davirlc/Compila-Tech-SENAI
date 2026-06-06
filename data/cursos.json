@@ -798,7 +798,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento Profissional Programação Java tem por objetivo o desenvolvimento de competências relativas à utilização da tecnologia Java como linguagem de programação e acesso a banco de dados relacionais, fornecendo conhecimentos para a elaboração e desenvolvimento de aplicações do desktop, apresentando os aspectos fundamentais para a criação da interface do usuário, a comunicação remota entre computadores por intermédio de aplicações cliente-servidor e acesso à banco de dados.",
     "cargaHoraria": "120 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/programacao-java/54589",
     "destaque": false
@@ -1282,6 +1282,20 @@
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/photoshop/76047",
+    "destaque": false
+  },
+  {
+    "id": 110572,
+    "nome": "Microsoft Power BI",
+    "areas": [
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso semipresencial (etapa online e 4 encontros presenciais) de Aperfeiçoamento Profissional de Microsoft Power BI  tem por objetivo o desenvolvimento de competências relacionadas desenvolver soluções por meio da plataforma de business intelligence (BI), utilizado para transformar dados brutos em informações úteis, insights de negócios e seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "32 horas",
+    "status": "Indisponível",
+    "modalidade": "A Distância",
+    "link": "https://www.sp.senai.br/curso/microsoft-power-bi/110572",
     "destaque": false
   }
 ]
