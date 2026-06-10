@@ -1297,5 +1297,18 @@
     "modalidade": "A Distância",
     "link": "https://www.sp.senai.br/curso/microsoft-power-bi/110572",
     "destaque": false
+  },
+  {
+    "id": 112551,
+    "nome": "Desenvolvimento de Agentes com IA - 103",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de Desenvolvimento de Agentes com IA - 103 tem como objetivo desenvolver competências relativas à realização de projetos, implementação e gerenciamento de agentes e soluções de inteligência artificial generativa e agêntica, por meio da plataforma Microsoft Foundry e pelos serviços de IA do Microsoft Azure, seguindo práticas de IA responsável, observabilidade e segurança, de acordo com os padrões de qualidade, respeitando normas ambientais e de saúde e segurança do trabalho",
+    "cargaHoraria": "60 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/desenvolvimento-de-agentes-com-ia-103/112551",
+    "destaque": false
   }
 ]
