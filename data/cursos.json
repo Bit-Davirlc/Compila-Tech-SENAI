@@ -22,7 +22,7 @@
     ],
     "descricao": "O Curso CCNA V7: SWITCHING, ROUTING AND WIRELESS ESSENTIALS, tem por objetivo desenvolver competências profissionais referentes a configuração e solução de problemas nos dispositivos de camada 2 e 3 (switch e roteador), identificando e mitigando ameaças de segurança de LAN, além de configuração e proteção de uma WLAN básica, tendo em vista a segurança e redundância dos equipamentos em redes de pequeno e médio porte.",
     "cargaHoraria": "72 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/ccna-v7-switching-routing-and-wireless-essentials/92800",
     "destaque": false
@@ -1309,6 +1309,19 @@
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/desenvolvimento-de-agentes-com-ia-103/112551",
+    "destaque": false
+  },
+  {
+    "id": 112799,
+    "nome": "Machine Learning Aplicada à Indústria",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de Machine Learning Aplicada à Indústria tem como objetivo desenvolver competências relativas ao desenvolvimento de modelos preditivos para otimização de processos industriais e corporativos, de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
+    "cargaHoraria": "60 horas",
+    "status": "Indisponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/machine-learning-aplicada-a-industria/112799",
     "destaque": false
   }
 ]
