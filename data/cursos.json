@@ -22,7 +22,7 @@
     ],
     "descricao": "O Curso CCNA V7: SWITCHING, ROUTING AND WIRELESS ESSENTIALS, tem por objetivo desenvolver competências profissionais referentes a configuração e solução de problemas nos dispositivos de camada 2 e 3 (switch e roteador), identificando e mitigando ameaças de segurança de LAN, além de configuração e proteção de uma WLAN básica, tendo em vista a segurança e redundância dos equipamentos em redes de pequeno e médio porte.",
     "cargaHoraria": "72 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/ccna-v7-switching-routing-and-wireless-essentials/92800",
     "destaque": false
@@ -738,10 +738,11 @@
     "id": 98923,
     "nome": "Programação Oracle - Java Foundations",
     "areas": [
-      "Programação"
+      "Programação",
+      "Banco de Dados"
     ],
-    "descricao": "O curso de Aperfeiçoamento Profissional de Programação Oracle - Java Foundations tem por objetivo o desenvolvimento de competências relativas à programação de software utilizando a linguagem Java, por meio dos conteúdos formativos da Oracle Academy, possibilitando que o profissional pleiteie a certificação Oracle ? Java Foundations.",
-    "cargaHoraria": "80 horas",
+    "descricao": "Descrição não encontrada",
+    "cargaHoraria": "Não informada",
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/programacao-oracle-java-foundations/98923",
@@ -1323,5 +1324,22 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/machine-learning-aplicada-a-industria/112799",
     "destaque": false
+  },
+  {
+    "id": 102723,
+    "nome": "Administrador de banco de dados",
+    "areas": [
+      "Segurança",
+      "Programação",
+      "Dados",
+      "IA",
+      "Banco de Dados"
+    ],
+    "descricao": "O curso de Qualificação Profissional de Administrador de Banco de Dados tem por objetivo o desenvolvimento de competências relativas à o desenvolvimento de competências relativas à análise, planejamento, criação,  manutenção de bancos de dados relacionais, à implantação de técnicas de segurança e administração de sistemas gerenciadores de bancos de dados relacionais (SGBDR) por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "160 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/administrador-de-banco-de-dados/102723",
+    "destaque": true
   }
 ]
