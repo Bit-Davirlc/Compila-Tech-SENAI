@@ -1340,5 +1340,20 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/administrador-de-banco-de-dados/102723",
     "destaque": true
+  },
+  {
+    "id": 94051,
+    "nome": "Excel Completo",
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional Excel Completo tem por objetivo o desenvolvimento de competências para elaborar e formatar planilhas utilizando fórmulas e funções matemáticas, estatísticas, de data e hora, lógicas, de pesquisa, como: SOMA, MÉDIA, SOMASE, CONT.SE, MÉDIASE, SE, PROCV, entre outras, criar gráficos e mini gráficos, tendo em vista a produtividade e a solução de problemas em diferentes áreas de atuação, criar planilhas automatizadas, utilizando funções aninhadas, controles de formulário, importação de dados, gravação de macros, considerando a organização e proteção dos dados. Criar tabelas e gráficos dinâmicos, subtotais e filtros avançados.",
+    "cargaHoraria": "80 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/excel-completo/94051",
+    "destaque": false
   }
 ]
