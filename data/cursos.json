@@ -1355,5 +1355,31 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/excel-completo/94051",
     "destaque": false
+  },
+  {
+    "id": 112975,
+    "nome": "Engenharia de Machine Learning e MLOps",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de Aperfeiçoamento Profissional de Engenharia de Machine Learning e MLOps tem por objetivo implementar e monitorar modelos de IA em ambiente produtivo, de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
+    "cargaHoraria": "60 horas",
+    "status": "Indisponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/engenharia-de-machine-learning-e-mlops/112975",
+    "destaque": false
+  },
+  {
+    "id": 112973,
+    "nome": "Deep Learning e Inteligência Artificial Generativa Aplicada",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de aperfeiçoamento profissional em Deep Learning e Inteligência Artificial Generativa Aplicada tem por objetivo implementar redes neurais e IA generativa em soluções industriais e corporativas de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
+    "cargaHoraria": "80 horas",
+    "status": "Indisponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/deep-learning-e-inteligencia-artificial-generativa-aplicada/112973",
+    "destaque": false
   }
 ]
