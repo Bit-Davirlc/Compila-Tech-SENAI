@@ -1377,9 +1377,25 @@
     ],
     "descricao": "O curso de aperfeiçoamento profissional em Deep Learning e Inteligência Artificial Generativa Aplicada tem por objetivo implementar redes neurais e IA generativa em soluções industriais e corporativas de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
     "cargaHoraria": "80 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/deep-learning-e-inteligencia-artificial-generativa-aplicada/112973",
+    "destaque": false
+  },
+  {
+    "id": 102681,
+    "nome": "Banco de Dados para Data Science",
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA",
+      "Banco de Dados"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional Banco de Dados para Data Science tem por objetivo o desenvolvimento de competências relativas à análise, planejamento, criação e manipulação de bancos de dados relacionais por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/banco-de-dados-para-data-science/102681",
     "destaque": false
   }
 ]
