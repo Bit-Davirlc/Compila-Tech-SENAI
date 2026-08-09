@@ -1397,5 +1397,19 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/banco-de-dados-para-data-science/102681",
     "destaque": false
+  },
+  {
+    "id": 102981,
+    "nome": "Microsoft Office Power Point",
+    "areas": [
+      "Programação",
+      "IA"
+    ],
+    "descricao": "O curso de Aperfeiçoamento Profissional de Microsoft Office Powerpoint tem por objetivo o desenvolvimento de competências necessárias para utilizar os recursos do Microsoft Office Powerpoint, bem como preparar o profissional para obter as certificações MO-300 (Microsoft Office Powerpoint).",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/microsoft-office-power-point/102981",
+    "destaque": false
   }
 ]
