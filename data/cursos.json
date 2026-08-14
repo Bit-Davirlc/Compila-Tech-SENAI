@@ -82,7 +82,7 @@
     ],
     "descricao": "O Curso CCNA V7: ENTERPRISE NETWORKING, SECURITY AND AUTOMATION, tem por objetivo desenvolver competências profissionais referentes a configuração e solução de problemas de redes corporativas, protegendo contra ameaças de segurança cibernética, identificando as ferramentas de gerenciamento de rede e os principais conceitos de rede definida por software, incluindo arquiteturas baseadas em controlador e como as APIs (Application Programming Interface) permitem a automação de rede.",
     "cargaHoraria": "72 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/ccna-v7-enterprise-networking-security-and-automation/92801",
     "destaque": true
@@ -1319,7 +1319,7 @@
     ],
     "descricao": "O curso de Machine Learning Aplicada à Indústria tem como objetivo desenvolver competências relativas ao desenvolvimento de modelos preditivos para otimização de processos industriais e corporativos, de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/machine-learning-aplicada-a-industria/112799",
     "destaque": false
@@ -1377,7 +1377,7 @@
     ],
     "descricao": "O curso de aperfeiçoamento profissional em Deep Learning e Inteligência Artificial Generativa Aplicada tem por objetivo implementar redes neurais e IA generativa em soluções industriais e corporativas de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
     "cargaHoraria": "80 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/deep-learning-e-inteligencia-artificial-generativa-aplicada/112973",
     "destaque": false
@@ -1410,6 +1410,20 @@
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/microsoft-office-power-point/102981",
+    "destaque": false
+  },
+  {
+    "id": 112958,
+    "nome": "Excel Básico com IA Generativa",
+    "areas": [
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso de Excel Básico com IA Generativa, tem como objetivo desenvolver competências relativas à utilizar os recursos básicos do Microsoft Office Excel impulsionado pela produtividade da IA generativa utilizando boas práticas, com os devidos cuidados com relação à ética, privacidade nos dados e responsabilidade na revisão de conteúdo gerados por IA, de acordo com os padrões de qualidade, respeitando normas ambientais e de saúde e segurança do trabalho.",
+    "cargaHoraria": "20 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/excel-basico-com-ia-generativa/112958",
     "destaque": false
   }
 ]
