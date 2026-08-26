@@ -1425,5 +1425,19 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/excel-basico-com-ia-generativa/112958",
     "destaque": false
+  },
+  {
+    "id": 113352,
+    "nome": "Power BI e Análise de Dados com IA",
+    "areas": [
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso de Aperfeiçoamento Profissional de Power BI e análise de dados com IA tem por objetivo o desenvolvimento de competências necessárias para que o profissional possa extrair, analisar e visualizar dados industriais por meio de ferramentas de Business Intelligence e Inteligência Artificial, habilitando-o a desenvolver modelos preditivos e painéis de indicadores que otimizem processos produtivos e apoiem a tomada de decisão estratégica baseada em dados.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/power-bi-e-analise-de-dados-com-ia/113352",
+    "destaque": false
   }
 ]
