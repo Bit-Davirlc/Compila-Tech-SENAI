@@ -1439,5 +1439,19 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/power-bi-e-analise-de-dados-com-ia/113352",
     "destaque": false
+  },
+  {
+    "id": 99733,
+    "nome": "Criação de Jogos Digitais",
+    "areas": [
+      "Programação",
+      "IA"
+    ],
+    "descricao": "O Curso Criação de Jogos Digitais visa a realização de edição e manipulação de elementos utilizados na produção de jogos 3D e experiências gamificadas, considerando a lógica de programação baseado na linguagem C++ e a experiência do usuário, seguindo normas e procedimentos técnicos.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/criacao-de-jogos-digitais/99733",
+    "destaque": false
   }
 ]
