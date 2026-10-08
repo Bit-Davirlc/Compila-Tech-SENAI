@@ -200,7 +200,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional de Desenvolvimento em Javascript tem por objetivo o desenvolvimento de competências relativas à que permitem programar em JavaScript com visão no lado do cliente, bem como criar páginas web interativas, animações, jogos e aplicativos da web.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/desenvolvimento-em-javascript/102674",
     "destaque": false
@@ -1377,7 +1377,7 @@
     ],
     "descricao": "O curso de aperfeiçoamento profissional em Deep Learning e Inteligência Artificial Generativa Aplicada tem por objetivo implementar redes neurais e IA generativa em soluções industriais e corporativas de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
     "cargaHoraria": "80 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/deep-learning-e-inteligencia-artificial-generativa-aplicada/112973",
     "destaque": false
@@ -1452,6 +1452,21 @@
     "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/criacao-de-jogos-digitais/99733",
+    "destaque": false
+  },
+  {
+    "id": 78376,
+    "nome": "VBA para Excel",
+    "areas": [
+      "Programação",
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O Curso de Aperfeiçoamento Profissional VBA para Excel tem por objetivo o desenvolvimento de competências para desenvolver macros e formulários personalizados e avançados para automatização de tarefas do Excel, utilizando os recursos disponíveis no ambiente VBA, proporcionando uma maior utilização das ferramentas disponíveis no aplicativo Excel na criação da interface com o usuário.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/vba-para-excel/78376",
     "destaque": false
   }
 ]
