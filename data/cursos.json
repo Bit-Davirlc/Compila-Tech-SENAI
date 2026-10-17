@@ -200,7 +200,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional de Desenvolvimento em Javascript tem por objetivo o desenvolvimento de competências relativas à que permitem programar em JavaScript com visão no lado do cliente, bem como criar páginas web interativas, animações, jogos e aplicativos da web.",
     "cargaHoraria": "60 horas",
-    "status": "Disponível",
+    "status": "Indisponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/desenvolvimento-em-javascript/102674",
     "destaque": false
@@ -1336,7 +1336,7 @@
     ],
     "descricao": "O curso de Qualificação Profissional de Administrador de Banco de Dados tem por objetivo o desenvolvimento de competências relativas à o desenvolvimento de competências relativas à análise, planejamento, criação,  manutenção de bancos de dados relacionais, à implantação de técnicas de segurança e administração de sistemas gerenciadores de bancos de dados relacionais (SGBDR) por meio de técnicas de programação, seguindo boas práticas, procedimentos e normas.",
     "cargaHoraria": "160 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/administrador-de-banco-de-dados/102723",
     "destaque": true
