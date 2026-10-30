@@ -67,7 +67,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional Cybersecurity Essentials tem por objetivo o desenvolvimento de competências relativas a implementação de tecnologias de defesa, identificando ameaças e analisando dados e alertas de segurança de acordo com procedimentos e boas práticas da área de cibersegurança.\nEste curso proporciona condições para que o aluno obtenha a certificação Cisco Certified Support Technician (CCST) Cybersecurity e para ingressar na área de cibersegurança.",
     "cargaHoraria": "70 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/cybersecurity-essentials/103589",
     "destaque": true
@@ -942,7 +942,7 @@
     ],
     "descricao": "O Curso de Aperfeiçoamento CCNA V7: INTRODUCTION TO NETWORKS tem por objetivo desenvolver competências profissionais referentes ao   planejamento, configuração e implementação de redes locais (LAN) de pequeno porte, parametrizando roteadores e switches, bem como endereçamento IP.",
     "cargaHoraria": "72 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/ccna-v7-introduction-to-networks/92799",
     "destaque": false
@@ -1364,7 +1364,7 @@
     ],
     "descricao": "O curso de Aperfeiçoamento Profissional de Engenharia de Machine Learning e MLOps tem por objetivo implementar e monitorar modelos de IA em ambiente produtivo, de acordo com procedimentos, especificações, normas técnicas, ambientais, de qualidade e de saúde e segurança do trabalho.",
     "cargaHoraria": "60 horas",
-    "status": "Indisponível",
+    "status": "Disponível",
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/engenharia-de-machine-learning-e-mlops/112975",
     "destaque": false
