@@ -1468,5 +1468,19 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/vba-para-excel/78376",
     "destaque": false
+  },
+  {
+    "id": 102725,
+    "nome": "Programação Oracle - Java Inteligência artificial com Machine Learning",
+    "areas": [
+      "Programação",
+      "IA"
+    ],
+    "descricao": "O curso de Aperfeiçoamento Profissional de Inteligência Artificial com Machine Learning em Java tem por objetivo apresentar os conceitos de Aprendizado de Máquina dentro da Inteligência Artificial, além da terminologia, sintaxe e as etapas necessárias para criar uma solução de Machine Learning utilizando Java.",
+    "cargaHoraria": "40 horas",
+    "status": "Indisponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/programacao-oracle-java-inteligencia-artificial-com-machine-learning/102725",
+    "destaque": false
   }
 ]
