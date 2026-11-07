@@ -1482,5 +1482,21 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/programacao-oracle-java-inteligencia-artificial-com-machine-learning/102725",
     "destaque": false
+  },
+  {
+    "id": 113749,
+    "nome": "Criação de Agentes de IA com Gemini e Google Cloud",
+    "areas": [
+      "Cloud",
+      "Segurança",
+      "Dados",
+      "IA"
+    ],
+    "descricao": "O curso Criação de Agentes de IA com Gemini e Google Cloud tem por objetivo desenvolver capacidades técnicas e socioemocionais para analisar necessidades, desenvolver, configurar, integrar, avaliar e implantar agentes de inteligência artificial, utilizando Gemini Enterprise, Agent Development Kit ? ADK, Cloud Run e Vertex AI Agent Engine. O curso contempla a integração de ferramentas, serviços e fontes de dados, a implementação de mecanismos de contexto e memória e a orquestração de sistemas multiagentes, de acordo com critérios de qualidade, segurança, confiabilidade, escalabilidade, supervisão humana e princípios de Inteligência Artificial responsável.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/criacao-de-agentes-de-ia-com-gemini-e-google-cloud/113749",
+    "destaque": true
   }
 ]
