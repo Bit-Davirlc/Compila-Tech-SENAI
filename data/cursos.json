@@ -1498,5 +1498,34 @@
     "modalidade": "Presencial",
     "link": "https://www.sp.senai.br/curso/criacao-de-agentes-de-ia-com-gemini-e-google-cloud/113749",
     "destaque": true
+  },
+  {
+    "id": 113724,
+    "nome": "Introdução ao Microsoft 365 e à Administração de Inteligência Artificial ? Microsoft AB-900",
+    "areas": [
+      "Segurança",
+      "Dados",
+      "IA",
+      "Certificação"
+    ],
+    "descricao": "O curso de Introdução ao Microsoft 365 e à Administração de Inteligência Artificial ? Microsoft AB-900 tem por objetivo preparar o estudante para a certificação Microsoft AB-900, desenvolvendo capacidades que possibilitem compreender, administrar e aplicar recursos de produtividade, segurança, identidade, conformidade, governança de dados, Microsoft 365 Copilot e agentes inteligentes em ambientes corporativos baseados na plataforma Microsoft 365.",
+    "cargaHoraria": "40 horas",
+    "status": "Disponível",
+    "modalidade": "Presencial",
+    "link": "https://www.sp.senai.br/curso/introducao-ao-microsoft-365-e-a-administracao-de-inteligencia-artificial-microsoft-ab-900/113724",
+    "destaque": true
+  },
+  {
+    "id": 113347,
+    "nome": "Por Dentro dos Agentes de Inteligência Artificial",
+    "areas": [
+      "IA"
+    ],
+    "descricao": "O curso de Iniciação profissional Por Dentro dos Agentes de Inteligência Artificial tem como objetivo capacitar os alunos para identificação de agentes de inteligência artificial, tendo em vista sua aplicação e em consonância com uso consciente da IA.",
+    "cargaHoraria": "12 horas",
+    "status": "Disponível",
+    "modalidade": "A Distância",
+    "link": "https://www.sp.senai.br/curso/por-dentro-dos-agentes-de-inteligencia-artificial/113347",
+    "destaque": false
   }
 ]
